@@ -83,9 +83,8 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         predict_voice(sys.argv[1])
     else:
-        # Default test on sample human and AI file if available
-        test_human = os.path.join(BASE_DIR, "dataset", "human", "human_01.wav")
-        test_ai = os.path.join(BASE_DIR, "dataset", "ai", "ai_01.wav")
+        test_human = os.path.join(BASE_DIR, "voice data", "human", "human_01.wav")
+        test_ai = os.path.join(BASE_DIR, "voice data", "ai", "ai_01.wav")
         
         if os.path.exists(test_human):
             predict_voice(test_human)

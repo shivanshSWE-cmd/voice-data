@@ -12,7 +12,7 @@ import edge_tts
 requests.packages.urllib3.disable_warnings()
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATASET_DIR = os.path.join(BASE_DIR, "dataset")
+DATASET_DIR = os.path.join(BASE_DIR, "voice data")
 HUMAN_DIR = os.path.join(DATASET_DIR, "human")
 AI_DIR = os.path.join(DATASET_DIR, "ai")
 TEMP_DIR = os.path.join(BASE_DIR, "temp_downloads")
@@ -47,7 +47,7 @@ AI_ENGLISH_VOICES = [
     {"id": "ai_20", "voice": "en-IE-ConnorNeural", "gender": "Male", "accent": "IE", "language": "English", "text": "Cross-validation validates model robustness against overfitting on training voice features."}
 ]
 
-# 10 Hindi AI Voices (hi-IN-SwaraNeural & hi-IN-MadhurNeural with varied pitch/rate and text)
+# 10 Hindi AI Voices
 AI_HINDI_VOICES = [
     {"id": "ai_hindi_01", "voice": "hi-IN-SwaraNeural", "gender": "Female", "accent": "IN Hindi", "language": "Hindi", "rate": "+0%", "pitch": "+0Hz", "text": "कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक तकनीक में क्रांति ला रही हैं।"},
     {"id": "ai_hindi_02", "voice": "hi-IN-MadhurNeural", "gender": "Male", "accent": "IN Hindi", "language": "Hindi", "rate": "+0%", "pitch": "+0Hz", "text": "आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।"},
@@ -184,8 +184,7 @@ def fetch_human_hindi_voices():
                 if chunk:
                     f.write(chunk)
                     downloaded += len(chunk)
-                    print(f"Downloaded {downloaded / (1024*1024):.1f} MB...")
-                    if downloaded >= 30 * 1024 * 1024:  # ~30MB provides ample Hindi audio clips
+                    if downloaded >= 30 * 1024 * 1024:
                         break
                         
     human_hindi_records = []
@@ -254,7 +253,7 @@ def main():
     df.to_csv(csv_path, index=False)
     
     print("\n==========================================")
-    print("   EXPANDED DATASET CREATION SUCCESSFUL!")
+    print("   DATASET CREATION SUCCESSFUL!")
     print("==========================================")
     print(f"Total Samples: {len(df)}")
     print(f"Human Voices:  {len(df[df['label'] == 'human'])} (20 English + 10 Hindi)")

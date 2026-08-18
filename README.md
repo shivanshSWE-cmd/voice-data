@@ -6,7 +6,7 @@ A complete, ready-to-train dataset designed for training machine learning and de
 
 ## 📁 Dataset Overview
 
-- **Total Audio Samples**: **60 standardized `.wav` files** (16kHz, mono, normalized volume).
+- **Total Audio Samples**: **60 standardized `.wav` files** (16kHz, mono, volume-normalized).
 - **Human Voice Samples (30 total)**:
   - **20 English Human Voices**: `human_01.wav` to `human_20.wav` (Sourced from LibriSpeech corpus across male/female speakers).
   - **10 Hindi Human Voices**: `human_hindi_01.wav` to `human_hindi_10.wav` (Sourced from OpenSLR 103 Hindi speech corpus).
@@ -20,8 +20,8 @@ A complete, ready-to-train dataset designed for training machine learning and de
 ## 🗂️ Directory Layout
 
 ```text
-voice_dataset/
-├── dataset/
+voice-data/
+├── voice data/
 │   ├── human/           # 30 Human voice .wav files (20 English + 10 Hindi)
 │   └── ai/              # 30 Neural AI voice .wav files (20 English + 10 Hindi)
 ├── metadata.csv         # Full 60-sample metadata index
@@ -42,3 +42,19 @@ voice_dataset/
 - **Test Set Accuracy (Holdout)**: **93.33%**
 - **Hindi Human Voice Prediction Accuracy**: **97.00% Confidence**
 - **Hindi AI Voice Prediction Accuracy**: **67.00% Confidence**
+
+---
+
+## 🚀 Usage Commands
+
+```bash
+# Extract features
+python extract_features.py
+
+# Train baseline classifier
+python train_baseline.py
+
+# Run prediction test
+python predict.py "voice data/human/human_hindi_01.wav"
+python predict.py "voice data/ai/ai_hindi_01.wav"
+```
