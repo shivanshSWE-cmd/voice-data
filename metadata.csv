@@ -1,0 +1,61 @@
+filename,filepath,label,voice_type,speaker_id,gender,accent,language,duration_sec,sample_rate,transcript
+human_01.wav,dataset/human/human_01.wav,human,Real Human Recording,LibriSpeech_Spk_5694,Female,US English,English,1.57,16000,Human English speech sample from speaker 5694
+human_02.wav,dataset/human/human_02.wav,human,Real Human Recording,LibriSpeech_Spk_5694,Female,US English,English,2.69,16000,Human English speech sample from speaker 5694
+human_03.wav,dataset/human/human_03.wav,human,Real Human Recording,LibriSpeech_Spk_3000,Male,US English,English,2.4,16000,Human English speech sample from speaker 3000
+human_04.wav,dataset/human/human_04.wav,human,Real Human Recording,LibriSpeech_Spk_3000,Male,US English,English,7.0,16000,Human English speech sample from speaker 3000
+human_05.wav,dataset/human/human_05.wav,human,Real Human Recording,LibriSpeech_Spk_7850,Female,US English,English,7.0,16000,Human English speech sample from speaker 7850
+human_06.wav,dataset/human/human_06.wav,human,Real Human Recording,LibriSpeech_Spk_7850,Female,US English,English,2.11,16000,Human English speech sample from speaker 7850
+human_07.wav,dataset/human/human_07.wav,human,Real Human Recording,LibriSpeech_Spk_84,Female,US English,English,7.0,16000,Human English speech sample from speaker 84
+human_08.wav,dataset/human/human_08.wav,human,Real Human Recording,LibriSpeech_Spk_84,Female,US English,English,7.0,16000,Human English speech sample from speaker 84
+human_09.wav,dataset/human/human_09.wav,human,Real Human Recording,LibriSpeech_Spk_7976,Female,US English,English,7.0,16000,Human English speech sample from speaker 7976
+human_10.wav,dataset/human/human_10.wav,human,Real Human Recording,LibriSpeech_Spk_7976,Female,US English,English,3.81,16000,Human English speech sample from speaker 7976
+human_11.wav,dataset/human/human_11.wav,human,Real Human Recording,LibriSpeech_Spk_5895,Female,US English,English,2.46,16000,Human English speech sample from speaker 5895
+human_12.wav,dataset/human/human_12.wav,human,Real Human Recording,LibriSpeech_Spk_5895,Female,US English,English,4.99,16000,Human English speech sample from speaker 5895
+human_13.wav,dataset/human/human_13.wav,human,Real Human Recording,LibriSpeech_Spk_6241,Male,US English,English,5.47,16000,Human English speech sample from speaker 6241
+human_14.wav,dataset/human/human_14.wav,human,Real Human Recording,LibriSpeech_Spk_6241,Female,US English,English,5.47,16000,Human English speech sample from speaker 6241
+human_15.wav,dataset/human/human_15.wav,human,Real Human Recording,LibriSpeech_Spk_1462,Female,US English,English,3.9,16000,Human English speech sample from speaker 1462
+human_16.wav,dataset/human/human_16.wav,human,Real Human Recording,LibriSpeech_Spk_1462,Female,US English,English,7.0,16000,Human English speech sample from speaker 1462
+human_17.wav,dataset/human/human_17.wav,human,Real Human Recording,LibriSpeech_Spk_3536,Female,US English,English,7.0,16000,Human English speech sample from speaker 3536
+human_18.wav,dataset/human/human_18.wav,human,Real Human Recording,LibriSpeech_Spk_3536,Female,US English,English,7.0,16000,Human English speech sample from speaker 3536
+human_19.wav,dataset/human/human_19.wav,human,Real Human Recording,LibriSpeech_Spk_6319,Female,US English,English,6.27,16000,Human English speech sample from speaker 6319
+human_20.wav,dataset/human/human_20.wav,human,Real Human Recording,LibriSpeech_Spk_6319,Female,US English,English,7.0,16000,Human English speech sample from speaker 6319
+human_hindi_01.wav,dataset/human/human_hindi_01.wav,human,Real Human Recording,OpenSLR_Hindi_2131_098,Female,Indian Hindi,Hindi,3.18,16000,Human Hindi speech utterance test/audio/2131_098.wav
+human_hindi_02.wav,dataset/human/human_hindi_02.wav,human,Real Human Recording,OpenSLR_Hindi_1119_029,Female,Indian Hindi,Hindi,6.24,16000,Human Hindi speech utterance test/audio/1119_029.wav
+human_hindi_03.wav,dataset/human/human_hindi_03.wav,human,Real Human Recording,OpenSLR_Hindi_5945_089,Female,Indian Hindi,Hindi,3.85,16000,Human Hindi speech utterance test/audio/5945_089.wav
+human_hindi_04.wav,dataset/human/human_hindi_04.wav,human,Real Human Recording,OpenSLR_Hindi_3701_029,Female,Indian Hindi,Hindi,3.42,16000,Human Hindi speech utterance test/audio/3701_029.wav
+human_hindi_05.wav,dataset/human/human_hindi_05.wav,human,Real Human Recording,OpenSLR_Hindi_0865_086,Female,Indian Hindi,Hindi,5.66,16000,Human Hindi speech utterance test/audio/0865_086.wav
+human_hindi_06.wav,dataset/human/human_hindi_06.wav,human,Real Human Recording,OpenSLR_Hindi_5532_088,Female,Indian Hindi,Hindi,3.62,16000,Human Hindi speech utterance test/audio/5532_088.wav
+human_hindi_07.wav,dataset/human/human_hindi_07.wav,human,Real Human Recording,OpenSLR_Hindi_4792_066,Female,Indian Hindi,Hindi,5.82,16000,Human Hindi speech utterance test/audio/4792_066.wav
+human_hindi_08.wav,dataset/human/human_hindi_08.wav,human,Real Human Recording,OpenSLR_Hindi_2415_086,Female,Indian Hindi,Hindi,3.17,16000,Human Hindi speech utterance test/audio/2415_086.wav
+human_hindi_09.wav,dataset/human/human_hindi_09.wav,human,Real Human Recording,OpenSLR_Hindi_5169_029,Female,Indian Hindi,Hindi,7.0,16000,Human Hindi speech utterance test/audio/5169_029.wav
+human_hindi_10.wav,dataset/human/human_hindi_10.wav,human,Real Human Recording,OpenSLR_Hindi_4663_003,Female,Indian Hindi,Hindi,4.9,16000,Human Hindi speech utterance test/audio/4663_003.wav
+ai_01.wav,dataset/ai/ai_01.wav,ai,Neural TTS,en-US-AvaNeural,Female,US,English,5.83,16000,Artificial intelligence and neural networks are transforming speech recognition technology.
+ai_02.wav,dataset/ai/ai_02.wav,ai,Neural TTS,en-US-AndrewNeural,Male,US,English,6.53,16000,Voice signal processing requires analyzing spectral features to identify acoustic characteristics.
+ai_03.wav,dataset/ai/ai_03.wav,ai,Neural TTS,en-US-EmmaNeural,Female,US,English,5.23,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_04.wav,dataset/ai/ai_04.wav,ai,Neural TTS,en-US-BrianNeural,Male,US,English,5.33,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_05.wav,dataset/ai/ai_05.wav,ai,Neural TTS,en-US-JennyNeural,Female,US,English,6.0,16000,The distinction between synthetic voices and human speech involves micro-temporal variations.
+ai_06.wav,dataset/ai/ai_06.wav,ai,Neural TTS,en-US-GuyNeural,Male,US,English,5.52,16000,Digital filters isolate fundamental frequencies and formant shifts in vocal tracks.
+ai_07.wav,dataset/ai/ai_07.wav,ai,Neural TTS,en-US-AriaNeural,Female,US,English,5.83,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_08.wav,dataset/ai/ai_08.wav,ai,Neural TTS,en-US-ChristopherNeural,Male,US,English,6.14,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_09.wav,dataset/ai/ai_09.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,UK,English,5.64,16000,British English neural models replicate subtle accent intonations and vowel lengthening.
+ai_10.wav,dataset/ai/ai_10.wav,ai,Neural TTS,en-GB-RyanNeural,Male,UK,English,6.14,16000,Zero crossing rates and spectral bandwidth provide strong signals for audio classification.
+ai_11.wav,dataset/ai/ai_11.wav,ai,Neural TTS,en-GB-MaisieNeural,Female,UK,English,6.86,16000,Evaluating model performance requires balanced datasets across multiple speaker demographics.
+ai_12.wav,dataset/ai/ai_12.wav,ai,Neural TTS,en-GB-ThomasNeural,Male,UK,English,5.3,16000,Acoustic feature vectors combine time-domain and frequency-domain statistics.
+ai_13.wav,dataset/ai/ai_13.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,AU,English,6.53,16000,Australian speech synthesis incorporates unique prosodic inflections and speech cadences.
+ai_14.wav,dataset/ai/ai_14.wav,ai,Neural TTS,en-AU-WilliamNeural,Male,AU,English,6.05,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across all files.
+ai_15.wav,dataset/ai/ai_15.wav,ai,Neural TTS,en-CA-ClaraNeural,Female,CA,English,5.5,16000,Canadian accent models broaden the phonetic diversity of synthetic training samples.
+ai_16.wav,dataset/ai/ai_16.wav,ai,Neural TTS,en-CA-LiamNeural,Male,CA,English,5.74,16000,Feature extraction converts raw continuous audio signals into structured numerical matrices.
+ai_17.wav,dataset/ai/ai_17.wav,ai,Neural TTS,en-IN-NeerjaNeural,Female,IN,English,6.65,16000,Indian English neural voices demonstrate distinct syllable pacing and consonant emphasis.
+ai_18.wav,dataset/ai/ai_18.wav,ai,Neural TTS,en-IN-PrabhatNeural,Male,IN,English,6.72,16000,Random forest ensembles combine multiple decision trees for stable decision boundaries.
+ai_19.wav,dataset/ai/ai_19.wav,ai,Neural TTS,en-IE-EmilyNeural,Female,IE,English,6.43,16000,Irish vocal patterns present rich acoustic variation for audio classification benchmarks.
+ai_20.wav,dataset/ai/ai_20.wav,ai,Neural TTS,en-IE-ConnorNeural,Male,IE,English,5.88,16000,Cross-validation validates model robustness against overfitting on training voice features.
+ai_hindi_01.wav,dataset/ai/ai_hindi_01.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,6.53,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक तकनीक में क्रांति ला रही हैं।
+ai_hindi_02.wav,dataset/ai/ai_hindi_02.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,9.26,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hindi_03.wav,dataset/ai/ai_hindi_03.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hindi_04.wav,dataset/ai/ai_hindi_04.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,8.02,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hindi_05.wav,dataset/ai/ai_hindi_05.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,5.66,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hindi_06.wav,dataset/ai/ai_hindi_06.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,7.92,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hindi_07.wav,dataset/ai/ai_hindi_07.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,6.86,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hindi_08.wav,dataset/ai/ai_hindi_08.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,7.18,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hindi_09.wav,dataset/ai/ai_hindi_09.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,7.39,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hindi_10.wav,dataset/ai/ai_hindi_10.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,6.96,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
