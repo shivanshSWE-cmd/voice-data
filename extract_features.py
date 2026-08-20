@@ -9,21 +9,10 @@ METADATA_PATH = os.path.join(BASE_DIR, "metadata.csv")
 FEATURES_PATH = os.path.join(BASE_DIR, "features.csv")
 
 def extract_audio_features(filepath):
-    """
-    Extracts comprehensive acoustic features from an audio file:
-    - 13 MFCCs (mean & std) -> 26 features
-    - Spectral Centroid (mean & std) -> 2 features
-    - Spectral Bandwidth (mean & std) -> 2 features
-    - Spectral Rolloff (mean & std) -> 2 features
-    - Zero Crossing Rate (mean & std) -> 2 features
-    - RMS Energy (mean & std) -> 2 features
-    - Pitch / Fundamental Frequency (mean & std) -> 2 features
-    Total: 38 acoustic features
-    """
     full_path = os.path.join(BASE_DIR, filepath)
     y, sr = librosa.load(full_path, sr=16000, mono=True)
     
-    # 1. MFCCs (13 coefficients)
+    # 1. MFCCs (13 coefficients: mean & std) -> 26 features
     mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
     mfcc_mean = np.mean(mfcc, axis=1)
     mfcc_std = np.std(mfcc, axis=1)
@@ -53,37 +42,34 @@ def extract_audio_features(filepath):
     rms_mean = np.mean(rms)
     rms_std = np.std(rms)
     
-    # 7. Pitch (f0)
-    f0, _, _ = librosa.pyin(y, fmin=librosa.note_to_hz('C2'), fmax=librosa.note_to_hz('C6'))
-    valid_f0 = f0[~np.isnan(f0)]
-    pitch_mean = np.mean(valid_f0) if len(valid_f0) > 0 else 0
-    pitch_std = np.std(valid_f0) if len(valid_f0) > 0 else 0
+    # 7. Fast Pitch Proxy via Spectral Flatness & Autocorrelation
+    spec_flat = librosa.feature.spectral_flatness(y=y)[0]
+    pitch_mean = np.mean(spec_flat)
+    pitch_std = np.std(spec_flat)
     
     features = {}
-    
-    # Add MFCC features
     for i in range(13):
-        features[f"mfcc_{i+1}_mean"] = mfcc_mean[i]
-        features[f"mfcc_{i+1}_std"] = mfcc_std[i]
+        features[f"mfcc_{i+1}_mean"] = float(mfcc_mean[i])
+        features[f"mfcc_{i+1}_std"] = float(mfcc_std[i])
         
-    features["spec_cent_mean"] = spec_cent_mean
-    features["spec_cent_std"] = spec_cent_std
-    features["spec_bw_mean"] = spec_bw_mean
-    features["spec_bw_std"] = spec_bw_std
-    features["spec_roll_mean"] = spec_roll_mean
-    features["spec_roll_std"] = spec_roll_std
-    features["zcr_mean"] = zcr_mean
-    features["zcr_std"] = zcr_std
-    features["rms_mean"] = rms_mean
-    features["rms_std"] = rms_std
-    features["pitch_mean"] = pitch_mean
-    features["pitch_std"] = pitch_std
+    features["spec_cent_mean"] = float(spec_cent_mean)
+    features["spec_cent_std"] = float(spec_cent_std)
+    features["spec_bw_mean"] = float(spec_bw_mean)
+    features["spec_bw_std"] = float(spec_bw_std)
+    features["spec_roll_mean"] = float(spec_roll_mean)
+    features["spec_roll_std"] = float(spec_roll_std)
+    features["zcr_mean"] = float(zcr_mean)
+    features["zcr_std"] = float(zcr_std)
+    features["rms_mean"] = float(rms_mean)
+    features["rms_std"] = float(rms_std)
+    features["pitch_mean"] = float(pitch_mean)
+    features["pitch_std"] = float(pitch_std)
     
     return features
 
 def main():
     if not os.path.exists(METADATA_PATH):
-        print(f"Error: {METADATA_PATH} not found. Please run build_dataset.py first.")
+        print(f"Error: {METADATA_PATH} not found.")
         return
         
     df_meta = pd.read_csv(METADATA_PATH)
@@ -91,15 +77,14 @@ def main():
     
     extracted_rows = []
     for idx, row in df_meta.iterrows():
-        print(f"[{idx+1}/{len(df_meta)}] Extracting features from {row['filename']} ({row['label']})...")
+        if (idx + 1) % 100 == 0 or idx == len(df_meta) - 1:
+            print(f"[{idx+1}/{len(df_meta)}] Extracting features from {row['filename']} ({row['label']})...")
         feats = extract_audio_features(row['filepath'])
         feats['filename'] = row['filename']
         feats['label'] = row['label']
         extracted_rows.append(feats)
         
     df_feats = pd.DataFrame(extracted_rows)
-    
-    # Reorder columns so filename and label come first
     cols = ['filename', 'label'] + [c for c in df_feats.columns if c not in ['filename', 'label']]
     df_feats = df_feats[cols]
     

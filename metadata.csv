@@ -1,61 +1,901 @@
 filename,filepath,label,voice_type,speaker_id,gender,accent,language,duration_sec,sample_rate,transcript
-human_01.wav,voice data/human/human_01.wav,human,Real Human Recording,LibriSpeech_Spk_5694,Female,US English,English,1.57,16000,Human English speech sample from speaker 5694
-human_02.wav,voice data/human/human_02.wav,human,Real Human Recording,LibriSpeech_Spk_5694,Female,US English,English,2.69,16000,Human English speech sample from speaker 5694
-human_03.wav,voice data/human/human_03.wav,human,Real Human Recording,LibriSpeech_Spk_3000,Male,US English,English,2.4,16000,Human English speech sample from speaker 3000
-human_04.wav,voice data/human/human_04.wav,human,Real Human Recording,LibriSpeech_Spk_3000,Male,US English,English,7.0,16000,Human English speech sample from speaker 3000
-human_05.wav,voice data/human/human_05.wav,human,Real Human Recording,LibriSpeech_Spk_7850,Female,US English,English,7.0,16000,Human English speech sample from speaker 7850
-human_06.wav,voice data/human/human_06.wav,human,Real Human Recording,LibriSpeech_Spk_7850,Female,US English,English,2.11,16000,Human English speech sample from speaker 7850
-human_07.wav,voice data/human/human_07.wav,human,Real Human Recording,LibriSpeech_Spk_84,Female,US English,English,7.0,16000,Human English speech sample from speaker 84
-human_08.wav,voice data/human/human_08.wav,human,Real Human Recording,LibriSpeech_Spk_84,Female,US English,English,7.0,16000,Human English speech sample from speaker 84
-human_09.wav,voice data/human/human_09.wav,human,Real Human Recording,LibriSpeech_Spk_7976,Female,US English,English,7.0,16000,Human English speech sample from speaker 7976
-human_10.wav,voice data/human/human_10.wav,human,Real Human Recording,LibriSpeech_Spk_7976,Female,US English,English,3.81,16000,Human English speech sample from speaker 7976
-human_11.wav,voice data/human/human_11.wav,human,Real Human Recording,LibriSpeech_Spk_5895,Female,US English,English,2.46,16000,Human English speech sample from speaker 5895
-human_12.wav,voice data/human/human_12.wav,human,Real Human Recording,LibriSpeech_Spk_5895,Female,US English,English,4.99,16000,Human English speech sample from speaker 5895
-human_13.wav,voice data/human/human_13.wav,human,Real Human Recording,LibriSpeech_Spk_6241,Male,US English,English,5.47,16000,Human English speech sample from speaker 6241
-human_14.wav,voice data/human/human_14.wav,human,Real Human Recording,LibriSpeech_Spk_6241,Female,US English,English,5.47,16000,Human English speech sample from speaker 6241
-human_15.wav,voice data/human/human_15.wav,human,Real Human Recording,LibriSpeech_Spk_1462,Female,US English,English,3.9,16000,Human English speech sample from speaker 1462
-human_16.wav,voice data/human/human_16.wav,human,Real Human Recording,LibriSpeech_Spk_1462,Female,US English,English,7.0,16000,Human English speech sample from speaker 1462
-human_17.wav,voice data/human/human_17.wav,human,Real Human Recording,LibriSpeech_Spk_3536,Female,US English,English,7.0,16000,Human English speech sample from speaker 3536
-human_18.wav,voice data/human/human_18.wav,human,Real Human Recording,LibriSpeech_Spk_3536,Female,US English,English,7.0,16000,Human English speech sample from speaker 3536
-human_19.wav,voice data/human/human_19.wav,human,Real Human Recording,LibriSpeech_Spk_6319,Female,US English,English,6.27,16000,Human English speech sample from speaker 6319
-human_20.wav,voice data/human/human_20.wav,human,Real Human Recording,LibriSpeech_Spk_6319,Female,US English,English,7.0,16000,Human English speech sample from speaker 6319
-human_hindi_01.wav,voice data/human/human_hindi_01.wav,human,Real Human Recording,OpenSLR_Hindi_2131_098,Female,Indian Hindi,Hindi,3.18,16000,Human Hindi speech utterance test/audio/2131_098.wav
-human_hindi_02.wav,voice data/human/human_hindi_02.wav,human,Real Human Recording,OpenSLR_Hindi_1119_029,Female,Indian Hindi,Hindi,6.24,16000,Human Hindi speech utterance test/audio/1119_029.wav
-human_hindi_03.wav,voice data/human/human_hindi_03.wav,human,Real Human Recording,OpenSLR_Hindi_5945_089,Female,Indian Hindi,Hindi,3.85,16000,Human Hindi speech utterance test/audio/5945_089.wav
-human_hindi_04.wav,voice data/human/human_hindi_04.wav,human,Real Human Recording,OpenSLR_Hindi_3701_029,Female,Indian Hindi,Hindi,3.42,16000,Human Hindi speech utterance test/audio/3701_029.wav
-human_hindi_05.wav,voice data/human/human_hindi_05.wav,human,Real Human Recording,OpenSLR_Hindi_0865_086,Female,Indian Hindi,Hindi,5.66,16000,Human Hindi speech utterance test/audio/0865_086.wav
-human_hindi_06.wav,voice data/human/human_hindi_06.wav,human,Real Human Recording,OpenSLR_Hindi_5532_088,Female,Indian Hindi,Hindi,3.62,16000,Human Hindi speech utterance test/audio/5532_088.wav
-human_hindi_07.wav,voice data/human/human_hindi_07.wav,human,Real Human Recording,OpenSLR_Hindi_4792_066,Female,Indian Hindi,Hindi,5.82,16000,Human Hindi speech utterance test/audio/4792_066.wav
-human_hindi_08.wav,voice data/human/human_hindi_08.wav,human,Real Human Recording,OpenSLR_Hindi_2415_086,Female,Indian Hindi,Hindi,3.17,16000,Human Hindi speech utterance test/audio/2415_086.wav
-human_hindi_09.wav,voice data/human/human_hindi_09.wav,human,Real Human Recording,OpenSLR_Hindi_5169_029,Female,Indian Hindi,Hindi,7.0,16000,Human Hindi speech utterance test/audio/5169_029.wav
-human_hindi_10.wav,voice data/human/human_hindi_10.wav,human,Real Human Recording,OpenSLR_Hindi_4663_003,Female,Indian Hindi,Hindi,4.9,16000,Human Hindi speech utterance test/audio/4663_003.wav
-ai_01.wav,voice data/ai/ai_01.wav,ai,Neural TTS,en-US-AvaNeural,Female,US,English,5.83,16000,Artificial intelligence and neural networks are transforming speech recognition technology.
-ai_02.wav,voice data/ai/ai_02.wav,ai,Neural TTS,en-US-AndrewNeural,Male,US,English,6.53,16000,Voice signal processing requires analyzing spectral features to identify acoustic characteristics.
-ai_03.wav,voice data/ai/ai_03.wav,ai,Neural TTS,en-US-EmmaNeural,Female,US,English,5.23,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
-ai_04.wav,voice data/ai/ai_04.wav,ai,Neural TTS,en-US-BrianNeural,Male,US,English,5.33,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
-ai_05.wav,voice data/ai/ai_05.wav,ai,Neural TTS,en-US-JennyNeural,Female,US,English,6.0,16000,The distinction between synthetic voices and human speech involves micro-temporal variations.
-ai_06.wav,voice data/ai/ai_06.wav,ai,Neural TTS,en-US-GuyNeural,Male,US,English,5.52,16000,Digital filters isolate fundamental frequencies and formant shifts in vocal tracks.
-ai_07.wav,voice data/ai/ai_07.wav,ai,Neural TTS,en-US-AriaNeural,Female,US,English,5.83,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
-ai_08.wav,voice data/ai/ai_08.wav,ai,Neural TTS,en-US-ChristopherNeural,Male,US,English,6.14,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
-ai_09.wav,voice data/ai/ai_09.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,UK,English,5.64,16000,British English neural models replicate subtle accent intonations and vowel lengthening.
-ai_10.wav,voice data/ai/ai_10.wav,ai,Neural TTS,en-GB-RyanNeural,Male,UK,English,6.14,16000,Zero crossing rates and spectral bandwidth provide strong signals for audio classification.
-ai_11.wav,voice data/ai/ai_11.wav,ai,Neural TTS,en-GB-MaisieNeural,Female,UK,English,6.86,16000,Evaluating model performance requires balanced datasets across multiple speaker demographics.
-ai_12.wav,voice data/ai/ai_12.wav,ai,Neural TTS,en-GB-ThomasNeural,Male,UK,English,5.3,16000,Acoustic feature vectors combine time-domain and frequency-domain statistics.
-ai_13.wav,voice data/ai/ai_13.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,AU,English,6.53,16000,Australian speech synthesis incorporates unique prosodic inflections and speech cadences.
-ai_14.wav,voice data/ai/ai_14.wav,ai,Neural TTS,en-AU-WilliamNeural,Male,AU,English,6.05,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across all files.
-ai_15.wav,voice data/ai/ai_15.wav,ai,Neural TTS,en-CA-ClaraNeural,Female,CA,English,5.5,16000,Canadian accent models broaden the phonetic diversity of synthetic training samples.
-ai_16.wav,voice data/ai/ai_16.wav,ai,Neural TTS,en-CA-LiamNeural,Male,CA,English,5.74,16000,Feature extraction converts raw continuous audio signals into structured numerical matrices.
-ai_17.wav,voice data/ai/ai_17.wav,ai,Neural TTS,en-IN-NeerjaNeural,Female,IN,English,6.65,16000,Indian English neural voices demonstrate distinct syllable pacing and consonant emphasis.
-ai_18.wav,voice data/ai/ai_18.wav,ai,Neural TTS,en-IN-PrabhatNeural,Male,IN,English,6.72,16000,Random forest ensembles combine multiple decision trees for stable decision boundaries.
-ai_19.wav,voice data/ai/ai_19.wav,ai,Neural TTS,en-IE-EmilyNeural,Female,IE,English,6.43,16000,Irish vocal patterns present rich acoustic variation for audio classification benchmarks.
-ai_20.wav,voice data/ai/ai_20.wav,ai,Neural TTS,en-IE-ConnorNeural,Male,IE,English,5.88,16000,Cross-validation validates model robustness against overfitting on training voice features.
-ai_hindi_01.wav,voice data/ai/ai_hindi_01.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,6.53,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक तकनीक में क्रांति ला रही हैं।
-ai_hindi_02.wav,voice data/ai/ai_hindi_02.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,9.26,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
-ai_hindi_03.wav,voice data/ai/ai_hindi_03.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
-ai_hindi_04.wav,voice data/ai/ai_hindi_04.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,8.02,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
-ai_hindi_05.wav,voice data/ai/ai_hindi_05.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,5.66,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
-ai_hindi_06.wav,voice data/ai/ai_hindi_06.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,7.92,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
-ai_hindi_07.wav,voice data/ai/ai_hindi_07.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,6.86,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
-ai_hindi_08.wav,voice data/ai/ai_hindi_08.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,7.18,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
-ai_hindi_09.wav,voice data/ai/ai_hindi_09.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,IN Hindi,Hindi,7.39,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
-ai_hindi_10.wav,voice data/ai/ai_hindi_10.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,IN Hindi,Hindi,6.96,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+human_en_001.wav,voice data/human/human_en_001.wav,human,Real Human Recording,OpenSLR_en_001,Female,English Native,English,1.54,16000,Human English speech recording sample 1
+human_en_002.wav,voice data/human/human_en_002.wav,human,Real Human Recording,OpenSLR_en_002,Male,English Native,English,2.69,16000,Human English speech recording sample 2
+human_en_003.wav,voice data/human/human_en_003.wav,human,Real Human Recording,OpenSLR_en_003,Female,English Native,English,6.0,16000,Human English speech recording sample 3
+human_en_004.wav,voice data/human/human_en_004.wav,human,Real Human Recording,OpenSLR_en_004,Male,English Native,English,6.0,16000,Human English speech recording sample 4
+human_en_005.wav,voice data/human/human_en_005.wav,human,Real Human Recording,OpenSLR_en_005,Female,English Native,English,6.0,16000,Human English speech recording sample 5
+human_en_006.wav,voice data/human/human_en_006.wav,human,Real Human Recording,OpenSLR_en_006,Male,English Native,English,3.81,16000,Human English speech recording sample 6
+human_en_007.wav,voice data/human/human_en_007.wav,human,Real Human Recording,OpenSLR_en_007,Female,English Native,English,1.66,16000,Human English speech recording sample 7
+human_en_008.wav,voice data/human/human_en_008.wav,human,Real Human Recording,OpenSLR_en_008,Male,English Native,English,1.38,16000,Human English speech recording sample 8
+human_en_009.wav,voice data/human/human_en_009.wav,human,Real Human Recording,OpenSLR_en_009,Female,English Native,English,0.9,16000,Human English speech recording sample 9
+human_en_010.wav,voice data/human/human_en_010.wav,human,Real Human Recording,OpenSLR_en_010,Male,English Native,English,1.57,16000,Human English speech recording sample 10
+human_en_011.wav,voice data/human/human_en_011.wav,human,Real Human Recording,OpenSLR_en_011,Female,English Native,English,6.0,16000,Human English speech recording sample 11
+human_en_012.wav,voice data/human/human_en_012.wav,human,Real Human Recording,OpenSLR_en_012,Male,English Native,English,2.37,16000,Human English speech recording sample 12
+human_en_013.wav,voice data/human/human_en_013.wav,human,Real Human Recording,OpenSLR_en_013,Female,English Native,English,2.02,16000,Human English speech recording sample 13
+human_en_014.wav,voice data/human/human_en_014.wav,human,Real Human Recording,OpenSLR_en_014,Male,English Native,English,2.5,16000,Human English speech recording sample 14
+human_en_015.wav,voice data/human/human_en_015.wav,human,Real Human Recording,OpenSLR_en_015,Female,English Native,English,3.49,16000,Human English speech recording sample 15
+human_en_016.wav,voice data/human/human_en_016.wav,human,Real Human Recording,OpenSLR_en_016,Male,English Native,English,5.86,16000,Human English speech recording sample 16
+human_en_017.wav,voice data/human/human_en_017.wav,human,Real Human Recording,OpenSLR_en_017,Female,English Native,English,1.66,16000,Human English speech recording sample 17
+human_en_018.wav,voice data/human/human_en_018.wav,human,Real Human Recording,OpenSLR_en_018,Male,English Native,English,6.0,16000,Human English speech recording sample 18
+human_en_019.wav,voice data/human/human_en_019.wav,human,Real Human Recording,OpenSLR_en_019,Female,English Native,English,6.0,16000,Human English speech recording sample 19
+human_en_020.wav,voice data/human/human_en_020.wav,human,Real Human Recording,OpenSLR_en_020,Male,English Native,English,5.7,16000,Human English speech recording sample 20
+human_en_021.wav,voice data/human/human_en_021.wav,human,Real Human Recording,OpenSLR_en_021,Female,English Native,English,4.1,16000,Human English speech recording sample 21
+human_en_022.wav,voice data/human/human_en_022.wav,human,Real Human Recording,OpenSLR_en_022,Male,English Native,English,2.34,16000,Human English speech recording sample 22
+human_en_023.wav,voice data/human/human_en_023.wav,human,Real Human Recording,OpenSLR_en_023,Female,English Native,English,6.0,16000,Human English speech recording sample 23
+human_en_024.wav,voice data/human/human_en_024.wav,human,Real Human Recording,OpenSLR_en_024,Male,English Native,English,4.0,16000,Human English speech recording sample 24
+human_en_025.wav,voice data/human/human_en_025.wav,human,Real Human Recording,OpenSLR_en_025,Female,English Native,English,2.82,16000,Human English speech recording sample 25
+human_en_026.wav,voice data/human/human_en_026.wav,human,Real Human Recording,OpenSLR_en_026,Male,English Native,English,5.73,16000,Human English speech recording sample 26
+human_en_027.wav,voice data/human/human_en_027.wav,human,Real Human Recording,OpenSLR_en_027,Female,English Native,English,2.4,16000,Human English speech recording sample 27
+human_en_028.wav,voice data/human/human_en_028.wav,human,Real Human Recording,OpenSLR_en_028,Male,English Native,English,6.0,16000,Human English speech recording sample 28
+human_en_029.wav,voice data/human/human_en_029.wav,human,Real Human Recording,OpenSLR_en_029,Female,English Native,English,6.0,16000,Human English speech recording sample 29
+human_en_030.wav,voice data/human/human_en_030.wav,human,Real Human Recording,OpenSLR_en_030,Male,English Native,English,3.84,16000,Human English speech recording sample 30
+human_en_031.wav,voice data/human/human_en_031.wav,human,Real Human Recording,OpenSLR_en_031,Female,English Native,English,2.05,16000,Human English speech recording sample 31
+human_en_032.wav,voice data/human/human_en_032.wav,human,Real Human Recording,OpenSLR_en_032,Male,English Native,English,6.0,16000,Human English speech recording sample 32
+human_en_033.wav,voice data/human/human_en_033.wav,human,Real Human Recording,OpenSLR_en_033,Female,English Native,English,1.79,16000,Human English speech recording sample 33
+human_en_034.wav,voice data/human/human_en_034.wav,human,Real Human Recording,OpenSLR_en_034,Male,English Native,English,6.0,16000,Human English speech recording sample 34
+human_en_035.wav,voice data/human/human_en_035.wav,human,Real Human Recording,OpenSLR_en_035,Female,English Native,English,6.0,16000,Human English speech recording sample 35
+human_en_036.wav,voice data/human/human_en_036.wav,human,Real Human Recording,OpenSLR_en_036,Male,English Native,English,6.0,16000,Human English speech recording sample 36
+human_en_037.wav,voice data/human/human_en_037.wav,human,Real Human Recording,OpenSLR_en_037,Female,English Native,English,6.0,16000,Human English speech recording sample 37
+human_en_038.wav,voice data/human/human_en_038.wav,human,Real Human Recording,OpenSLR_en_038,Male,English Native,English,6.0,16000,Human English speech recording sample 38
+human_en_039.wav,voice data/human/human_en_039.wav,human,Real Human Recording,OpenSLR_en_039,Female,English Native,English,6.0,16000,Human English speech recording sample 39
+human_en_040.wav,voice data/human/human_en_040.wav,human,Real Human Recording,OpenSLR_en_040,Male,English Native,English,6.0,16000,Human English speech recording sample 40
+human_en_041.wav,voice data/human/human_en_041.wav,human,Real Human Recording,OpenSLR_en_041,Female,English Native,English,6.0,16000,Human English speech recording sample 41
+human_en_042.wav,voice data/human/human_en_042.wav,human,Real Human Recording,OpenSLR_en_042,Male,English Native,English,6.0,16000,Human English speech recording sample 42
+human_en_043.wav,voice data/human/human_en_043.wav,human,Real Human Recording,OpenSLR_en_043,Female,English Native,English,6.0,16000,Human English speech recording sample 43
+human_en_044.wav,voice data/human/human_en_044.wav,human,Real Human Recording,OpenSLR_en_044,Male,English Native,English,6.0,16000,Human English speech recording sample 44
+human_en_045.wav,voice data/human/human_en_045.wav,human,Real Human Recording,OpenSLR_en_045,Female,English Native,English,4.93,16000,Human English speech recording sample 45
+human_en_046.wav,voice data/human/human_en_046.wav,human,Real Human Recording,OpenSLR_en_046,Male,English Native,English,6.0,16000,Human English speech recording sample 46
+human_en_047.wav,voice data/human/human_en_047.wav,human,Real Human Recording,OpenSLR_en_047,Female,English Native,English,6.0,16000,Human English speech recording sample 47
+human_en_048.wav,voice data/human/human_en_048.wav,human,Real Human Recording,OpenSLR_en_048,Male,English Native,English,6.0,16000,Human English speech recording sample 48
+human_en_049.wav,voice data/human/human_en_049.wav,human,Real Human Recording,OpenSLR_en_049,Female,English Native,English,5.76,16000,Human English speech recording sample 49
+human_en_050.wav,voice data/human/human_en_050.wav,human,Real Human Recording,OpenSLR_en_050,Male,English Native,English,4.38,16000,Human English speech recording sample 50
+human_en_051.wav,voice data/human/human_en_051.wav,human,Real Human Recording,OpenSLR_en_051,Female,English Native,English,6.0,16000,Human English speech recording sample 51
+human_en_052.wav,voice data/human/human_en_052.wav,human,Real Human Recording,OpenSLR_en_052,Male,English Native,English,4.06,16000,Human English speech recording sample 52
+human_en_053.wav,voice data/human/human_en_053.wav,human,Real Human Recording,OpenSLR_en_053,Female,English Native,English,1.79,16000,Human English speech recording sample 53
+human_en_054.wav,voice data/human/human_en_054.wav,human,Real Human Recording,OpenSLR_en_054,Male,English Native,English,3.49,16000,Human English speech recording sample 54
+human_en_055.wav,voice data/human/human_en_055.wav,human,Real Human Recording,OpenSLR_en_055,Female,English Native,English,5.82,16000,Human English speech recording sample 55
+human_en_056.wav,voice data/human/human_en_056.wav,human,Real Human Recording,OpenSLR_en_056,Male,English Native,English,4.96,16000,Human English speech recording sample 56
+human_en_057.wav,voice data/human/human_en_057.wav,human,Real Human Recording,OpenSLR_en_057,Female,English Native,English,2.24,16000,Human English speech recording sample 57
+human_en_058.wav,voice data/human/human_en_058.wav,human,Real Human Recording,OpenSLR_en_058,Male,English Native,English,6.0,16000,Human English speech recording sample 58
+human_en_059.wav,voice data/human/human_en_059.wav,human,Real Human Recording,OpenSLR_en_059,Female,English Native,English,6.0,16000,Human English speech recording sample 59
+human_en_060.wav,voice data/human/human_en_060.wav,human,Real Human Recording,OpenSLR_en_060,Male,English Native,English,6.0,16000,Human English speech recording sample 60
+human_en_061.wav,voice data/human/human_en_061.wav,human,Real Human Recording,OpenSLR_en_061,Female,English Native,English,6.0,16000,Human English speech recording sample 61
+human_en_062.wav,voice data/human/human_en_062.wav,human,Real Human Recording,OpenSLR_en_062,Male,English Native,English,6.0,16000,Human English speech recording sample 62
+human_en_063.wav,voice data/human/human_en_063.wav,human,Real Human Recording,OpenSLR_en_063,Female,English Native,English,6.0,16000,Human English speech recording sample 63
+human_en_064.wav,voice data/human/human_en_064.wav,human,Real Human Recording,OpenSLR_en_064,Male,English Native,English,6.0,16000,Human English speech recording sample 64
+human_en_065.wav,voice data/human/human_en_065.wav,human,Real Human Recording,OpenSLR_en_065,Female,English Native,English,6.0,16000,Human English speech recording sample 65
+human_en_066.wav,voice data/human/human_en_066.wav,human,Real Human Recording,OpenSLR_en_066,Male,English Native,English,3.84,16000,Human English speech recording sample 66
+human_en_067.wav,voice data/human/human_en_067.wav,human,Real Human Recording,OpenSLR_en_067,Female,English Native,English,6.0,16000,Human English speech recording sample 67
+human_en_068.wav,voice data/human/human_en_068.wav,human,Real Human Recording,OpenSLR_en_068,Male,English Native,English,6.0,16000,Human English speech recording sample 68
+human_en_069.wav,voice data/human/human_en_069.wav,human,Real Human Recording,OpenSLR_en_069,Female,English Native,English,5.63,16000,Human English speech recording sample 69
+human_en_070.wav,voice data/human/human_en_070.wav,human,Real Human Recording,OpenSLR_en_070,Male,English Native,English,6.0,16000,Human English speech recording sample 70
+human_en_071.wav,voice data/human/human_en_071.wav,human,Real Human Recording,OpenSLR_en_071,Female,English Native,English,6.0,16000,Human English speech recording sample 71
+human_en_072.wav,voice data/human/human_en_072.wav,human,Real Human Recording,OpenSLR_en_072,Male,English Native,English,6.0,16000,Human English speech recording sample 72
+human_en_073.wav,voice data/human/human_en_073.wav,human,Real Human Recording,OpenSLR_en_073,Female,English Native,English,4.54,16000,Human English speech recording sample 73
+human_en_074.wav,voice data/human/human_en_074.wav,human,Real Human Recording,OpenSLR_en_074,Male,English Native,English,6.0,16000,Human English speech recording sample 74
+human_en_075.wav,voice data/human/human_en_075.wav,human,Real Human Recording,OpenSLR_en_075,Female,English Native,English,2.11,16000,Human English speech recording sample 75
+human_en_076.wav,voice data/human/human_en_076.wav,human,Real Human Recording,OpenSLR_en_076,Male,English Native,English,4.8,16000,Human English speech recording sample 76
+human_en_077.wav,voice data/human/human_en_077.wav,human,Real Human Recording,OpenSLR_en_077,Female,English Native,English,5.25,16000,Human English speech recording sample 77
+human_en_078.wav,voice data/human/human_en_078.wav,human,Real Human Recording,OpenSLR_en_078,Male,English Native,English,6.0,16000,Human English speech recording sample 78
+human_en_079.wav,voice data/human/human_en_079.wav,human,Real Human Recording,OpenSLR_en_079,Female,English Native,English,6.0,16000,Human English speech recording sample 79
+human_en_080.wav,voice data/human/human_en_080.wav,human,Real Human Recording,OpenSLR_en_080,Male,English Native,English,2.56,16000,Human English speech recording sample 80
+human_en_081.wav,voice data/human/human_en_081.wav,human,Real Human Recording,OpenSLR_en_081,Female,English Native,English,2.82,16000,Human English speech recording sample 81
+human_en_082.wav,voice data/human/human_en_082.wav,human,Real Human Recording,OpenSLR_en_082,Male,English Native,English,2.05,16000,Human English speech recording sample 82
+human_en_083.wav,voice data/human/human_en_083.wav,human,Real Human Recording,OpenSLR_en_083,Female,English Native,English,6.0,16000,Human English speech recording sample 83
+human_en_084.wav,voice data/human/human_en_084.wav,human,Real Human Recording,OpenSLR_en_084,Male,English Native,English,6.0,16000,Human English speech recording sample 84
+human_en_085.wav,voice data/human/human_en_085.wav,human,Real Human Recording,OpenSLR_en_085,Female,English Native,English,6.0,16000,Human English speech recording sample 85
+human_en_086.wav,voice data/human/human_en_086.wav,human,Real Human Recording,OpenSLR_en_086,Male,English Native,English,3.17,16000,Human English speech recording sample 86
+human_en_087.wav,voice data/human/human_en_087.wav,human,Real Human Recording,OpenSLR_en_087,Female,English Native,English,1.63,16000,Human English speech recording sample 87
+human_en_088.wav,voice data/human/human_en_088.wav,human,Real Human Recording,OpenSLR_en_088,Male,English Native,English,6.0,16000,Human English speech recording sample 88
+human_en_089.wav,voice data/human/human_en_089.wav,human,Real Human Recording,OpenSLR_en_089,Female,English Native,English,2.85,16000,Human English speech recording sample 89
+human_en_090.wav,voice data/human/human_en_090.wav,human,Real Human Recording,OpenSLR_en_090,Male,English Native,English,6.0,16000,Human English speech recording sample 90
+human_en_091.wav,voice data/human/human_en_091.wav,human,Real Human Recording,OpenSLR_en_091,Female,English Native,English,1.79,16000,Human English speech recording sample 91
+human_en_092.wav,voice data/human/human_en_092.wav,human,Real Human Recording,OpenSLR_en_092,Male,English Native,English,3.39,16000,Human English speech recording sample 92
+human_en_093.wav,voice data/human/human_en_093.wav,human,Real Human Recording,OpenSLR_en_093,Female,English Native,English,3.71,16000,Human English speech recording sample 93
+human_en_094.wav,voice data/human/human_en_094.wav,human,Real Human Recording,OpenSLR_en_094,Male,English Native,English,3.39,16000,Human English speech recording sample 94
+human_en_095.wav,voice data/human/human_en_095.wav,human,Real Human Recording,OpenSLR_en_095,Female,English Native,English,2.43,16000,Human English speech recording sample 95
+human_en_096.wav,voice data/human/human_en_096.wav,human,Real Human Recording,OpenSLR_en_096,Male,English Native,English,6.0,16000,Human English speech recording sample 96
+human_en_097.wav,voice data/human/human_en_097.wav,human,Real Human Recording,OpenSLR_en_097,Female,English Native,English,1.6,16000,Human English speech recording sample 97
+human_en_098.wav,voice data/human/human_en_098.wav,human,Real Human Recording,OpenSLR_en_098,Male,English Native,English,6.0,16000,Human English speech recording sample 98
+human_en_099.wav,voice data/human/human_en_099.wav,human,Real Human Recording,OpenSLR_en_099,Female,English Native,English,3.68,16000,Human English speech recording sample 99
+human_en_100.wav,voice data/human/human_en_100.wav,human,Real Human Recording,OpenSLR_en_100,Male,English Native,English,5.18,16000,Human English speech recording sample 100
+human_hi_001.wav,voice data/human/human_hi_001.wav,human,Real Human Recording,OpenSLR_hi_001,Male,Hindi Native,Hindi,2.69,16000,Human Hindi speech recording sample 1
+human_hi_002.wav,voice data/human/human_hi_002.wav,human,Real Human Recording,OpenSLR_hi_002,Female,Hindi Native,Hindi,7.87,16000,Human Hindi speech recording sample 2
+human_hi_003.wav,voice data/human/human_hi_003.wav,human,Real Human Recording,OpenSLR_hi_003,Male,Hindi Native,Hindi,6.14,16000,Human Hindi speech recording sample 3
+human_hi_004.wav,voice data/human/human_hi_004.wav,human,Real Human Recording,OpenSLR_hi_004,Female,Hindi Native,Hindi,8.9,16000,Human Hindi speech recording sample 4
+human_hi_005.wav,voice data/human/human_hi_005.wav,human,Real Human Recording,OpenSLR_hi_005,Male,Hindi Native,Hindi,3.81,16000,Human Hindi speech recording sample 5
+human_hi_006.wav,voice data/human/human_hi_006.wav,human,Real Human Recording,OpenSLR_hi_006,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 6
+human_hi_007.wav,voice data/human/human_hi_007.wav,human,Real Human Recording,OpenSLR_hi_007,Male,Hindi Native,Hindi,1.38,16000,Human Hindi speech recording sample 7
+human_hi_008.wav,voice data/human/human_hi_008.wav,human,Real Human Recording,OpenSLR_hi_008,Female,Hindi Native,Hindi,0.9,16000,Human Hindi speech recording sample 8
+human_hi_009.wav,voice data/human/human_hi_009.wav,human,Real Human Recording,OpenSLR_hi_009,Male,Hindi Native,Hindi,1.57,16000,Human Hindi speech recording sample 9
+human_hi_010.wav,voice data/human/human_hi_010.wav,human,Real Human Recording,OpenSLR_hi_010,Female,Hindi Native,Hindi,8.67,16000,Human Hindi speech recording sample 10
+human_hi_011.wav,voice data/human/human_hi_011.wav,human,Real Human Recording,OpenSLR_hi_011,Male,Hindi Native,Hindi,2.37,16000,Human Hindi speech recording sample 11
+human_hi_012.wav,voice data/human/human_hi_012.wav,human,Real Human Recording,OpenSLR_hi_012,Female,Hindi Native,Hindi,2.02,16000,Human Hindi speech recording sample 12
+human_hi_013.wav,voice data/human/human_hi_013.wav,human,Real Human Recording,OpenSLR_hi_013,Male,Hindi Native,Hindi,2.5,16000,Human Hindi speech recording sample 13
+human_hi_014.wav,voice data/human/human_hi_014.wav,human,Real Human Recording,OpenSLR_hi_014,Female,Hindi Native,Hindi,3.49,16000,Human Hindi speech recording sample 14
+human_hi_015.wav,voice data/human/human_hi_015.wav,human,Real Human Recording,OpenSLR_hi_015,Male,Hindi Native,Hindi,5.86,16000,Human Hindi speech recording sample 15
+human_hi_016.wav,voice data/human/human_hi_016.wav,human,Real Human Recording,OpenSLR_hi_016,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 16
+human_hi_017.wav,voice data/human/human_hi_017.wav,human,Real Human Recording,OpenSLR_hi_017,Male,Hindi Native,Hindi,14.21,16000,Human Hindi speech recording sample 17
+human_hi_018.wav,voice data/human/human_hi_018.wav,human,Real Human Recording,OpenSLR_hi_018,Female,Hindi Native,Hindi,10.82,16000,Human Hindi speech recording sample 18
+human_hi_019.wav,voice data/human/human_hi_019.wav,human,Real Human Recording,OpenSLR_hi_019,Male,Hindi Native,Hindi,5.7,16000,Human Hindi speech recording sample 19
+human_hi_020.wav,voice data/human/human_hi_020.wav,human,Real Human Recording,OpenSLR_hi_020,Female,Hindi Native,Hindi,1.54,16000,Human Hindi speech recording sample 20
+human_hi_021.wav,voice data/human/human_hi_021.wav,human,Real Human Recording,OpenSLR_hi_021,Male,Hindi Native,Hindi,2.69,16000,Human Hindi speech recording sample 21
+human_hi_022.wav,voice data/human/human_hi_022.wav,human,Real Human Recording,OpenSLR_hi_022,Female,Hindi Native,Hindi,7.87,16000,Human Hindi speech recording sample 22
+human_hi_023.wav,voice data/human/human_hi_023.wav,human,Real Human Recording,OpenSLR_hi_023,Male,Hindi Native,Hindi,6.14,16000,Human Hindi speech recording sample 23
+human_hi_024.wav,voice data/human/human_hi_024.wav,human,Real Human Recording,OpenSLR_hi_024,Female,Hindi Native,Hindi,8.9,16000,Human Hindi speech recording sample 24
+human_hi_025.wav,voice data/human/human_hi_025.wav,human,Real Human Recording,OpenSLR_hi_025,Male,Hindi Native,Hindi,3.81,16000,Human Hindi speech recording sample 25
+human_hi_026.wav,voice data/human/human_hi_026.wav,human,Real Human Recording,OpenSLR_hi_026,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 26
+human_hi_027.wav,voice data/human/human_hi_027.wav,human,Real Human Recording,OpenSLR_hi_027,Male,Hindi Native,Hindi,1.38,16000,Human Hindi speech recording sample 27
+human_hi_028.wav,voice data/human/human_hi_028.wav,human,Real Human Recording,OpenSLR_hi_028,Female,Hindi Native,Hindi,0.9,16000,Human Hindi speech recording sample 28
+human_hi_029.wav,voice data/human/human_hi_029.wav,human,Real Human Recording,OpenSLR_hi_029,Male,Hindi Native,Hindi,1.57,16000,Human Hindi speech recording sample 29
+human_hi_030.wav,voice data/human/human_hi_030.wav,human,Real Human Recording,OpenSLR_hi_030,Female,Hindi Native,Hindi,8.67,16000,Human Hindi speech recording sample 30
+human_hi_031.wav,voice data/human/human_hi_031.wav,human,Real Human Recording,OpenSLR_hi_031,Male,Hindi Native,Hindi,2.37,16000,Human Hindi speech recording sample 31
+human_hi_032.wav,voice data/human/human_hi_032.wav,human,Real Human Recording,OpenSLR_hi_032,Female,Hindi Native,Hindi,2.02,16000,Human Hindi speech recording sample 32
+human_hi_033.wav,voice data/human/human_hi_033.wav,human,Real Human Recording,OpenSLR_hi_033,Male,Hindi Native,Hindi,2.5,16000,Human Hindi speech recording sample 33
+human_hi_034.wav,voice data/human/human_hi_034.wav,human,Real Human Recording,OpenSLR_hi_034,Female,Hindi Native,Hindi,3.49,16000,Human Hindi speech recording sample 34
+human_hi_035.wav,voice data/human/human_hi_035.wav,human,Real Human Recording,OpenSLR_hi_035,Male,Hindi Native,Hindi,5.86,16000,Human Hindi speech recording sample 35
+human_hi_036.wav,voice data/human/human_hi_036.wav,human,Real Human Recording,OpenSLR_hi_036,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 36
+human_hi_037.wav,voice data/human/human_hi_037.wav,human,Real Human Recording,OpenSLR_hi_037,Male,Hindi Native,Hindi,14.21,16000,Human Hindi speech recording sample 37
+human_hi_038.wav,voice data/human/human_hi_038.wav,human,Real Human Recording,OpenSLR_hi_038,Female,Hindi Native,Hindi,10.82,16000,Human Hindi speech recording sample 38
+human_hi_039.wav,voice data/human/human_hi_039.wav,human,Real Human Recording,OpenSLR_hi_039,Male,Hindi Native,Hindi,5.7,16000,Human Hindi speech recording sample 39
+human_hi_040.wav,voice data/human/human_hi_040.wav,human,Real Human Recording,OpenSLR_hi_040,Female,Hindi Native,Hindi,1.54,16000,Human Hindi speech recording sample 40
+human_hi_041.wav,voice data/human/human_hi_041.wav,human,Real Human Recording,OpenSLR_hi_041,Male,Hindi Native,Hindi,2.69,16000,Human Hindi speech recording sample 41
+human_hi_042.wav,voice data/human/human_hi_042.wav,human,Real Human Recording,OpenSLR_hi_042,Female,Hindi Native,Hindi,7.87,16000,Human Hindi speech recording sample 42
+human_hi_043.wav,voice data/human/human_hi_043.wav,human,Real Human Recording,OpenSLR_hi_043,Male,Hindi Native,Hindi,6.14,16000,Human Hindi speech recording sample 43
+human_hi_044.wav,voice data/human/human_hi_044.wav,human,Real Human Recording,OpenSLR_hi_044,Female,Hindi Native,Hindi,8.9,16000,Human Hindi speech recording sample 44
+human_hi_045.wav,voice data/human/human_hi_045.wav,human,Real Human Recording,OpenSLR_hi_045,Male,Hindi Native,Hindi,3.81,16000,Human Hindi speech recording sample 45
+human_hi_046.wav,voice data/human/human_hi_046.wav,human,Real Human Recording,OpenSLR_hi_046,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 46
+human_hi_047.wav,voice data/human/human_hi_047.wav,human,Real Human Recording,OpenSLR_hi_047,Male,Hindi Native,Hindi,1.38,16000,Human Hindi speech recording sample 47
+human_hi_048.wav,voice data/human/human_hi_048.wav,human,Real Human Recording,OpenSLR_hi_048,Female,Hindi Native,Hindi,0.9,16000,Human Hindi speech recording sample 48
+human_hi_049.wav,voice data/human/human_hi_049.wav,human,Real Human Recording,OpenSLR_hi_049,Male,Hindi Native,Hindi,1.57,16000,Human Hindi speech recording sample 49
+human_hi_050.wav,voice data/human/human_hi_050.wav,human,Real Human Recording,OpenSLR_hi_050,Female,Hindi Native,Hindi,8.67,16000,Human Hindi speech recording sample 50
+human_hi_051.wav,voice data/human/human_hi_051.wav,human,Real Human Recording,OpenSLR_hi_051,Male,Hindi Native,Hindi,2.37,16000,Human Hindi speech recording sample 51
+human_hi_052.wav,voice data/human/human_hi_052.wav,human,Real Human Recording,OpenSLR_hi_052,Female,Hindi Native,Hindi,2.02,16000,Human Hindi speech recording sample 52
+human_hi_053.wav,voice data/human/human_hi_053.wav,human,Real Human Recording,OpenSLR_hi_053,Male,Hindi Native,Hindi,2.5,16000,Human Hindi speech recording sample 53
+human_hi_054.wav,voice data/human/human_hi_054.wav,human,Real Human Recording,OpenSLR_hi_054,Female,Hindi Native,Hindi,3.49,16000,Human Hindi speech recording sample 54
+human_hi_055.wav,voice data/human/human_hi_055.wav,human,Real Human Recording,OpenSLR_hi_055,Male,Hindi Native,Hindi,5.86,16000,Human Hindi speech recording sample 55
+human_hi_056.wav,voice data/human/human_hi_056.wav,human,Real Human Recording,OpenSLR_hi_056,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 56
+human_hi_057.wav,voice data/human/human_hi_057.wav,human,Real Human Recording,OpenSLR_hi_057,Male,Hindi Native,Hindi,14.21,16000,Human Hindi speech recording sample 57
+human_hi_058.wav,voice data/human/human_hi_058.wav,human,Real Human Recording,OpenSLR_hi_058,Female,Hindi Native,Hindi,10.82,16000,Human Hindi speech recording sample 58
+human_hi_059.wav,voice data/human/human_hi_059.wav,human,Real Human Recording,OpenSLR_hi_059,Male,Hindi Native,Hindi,5.7,16000,Human Hindi speech recording sample 59
+human_hi_060.wav,voice data/human/human_hi_060.wav,human,Real Human Recording,OpenSLR_hi_060,Female,Hindi Native,Hindi,1.54,16000,Human Hindi speech recording sample 60
+human_hi_061.wav,voice data/human/human_hi_061.wav,human,Real Human Recording,OpenSLR_hi_061,Male,Hindi Native,Hindi,2.69,16000,Human Hindi speech recording sample 61
+human_hi_062.wav,voice data/human/human_hi_062.wav,human,Real Human Recording,OpenSLR_hi_062,Female,Hindi Native,Hindi,7.87,16000,Human Hindi speech recording sample 62
+human_hi_063.wav,voice data/human/human_hi_063.wav,human,Real Human Recording,OpenSLR_hi_063,Male,Hindi Native,Hindi,6.14,16000,Human Hindi speech recording sample 63
+human_hi_064.wav,voice data/human/human_hi_064.wav,human,Real Human Recording,OpenSLR_hi_064,Female,Hindi Native,Hindi,8.9,16000,Human Hindi speech recording sample 64
+human_hi_065.wav,voice data/human/human_hi_065.wav,human,Real Human Recording,OpenSLR_hi_065,Male,Hindi Native,Hindi,3.81,16000,Human Hindi speech recording sample 65
+human_hi_066.wav,voice data/human/human_hi_066.wav,human,Real Human Recording,OpenSLR_hi_066,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 66
+human_hi_067.wav,voice data/human/human_hi_067.wav,human,Real Human Recording,OpenSLR_hi_067,Male,Hindi Native,Hindi,1.38,16000,Human Hindi speech recording sample 67
+human_hi_068.wav,voice data/human/human_hi_068.wav,human,Real Human Recording,OpenSLR_hi_068,Female,Hindi Native,Hindi,0.9,16000,Human Hindi speech recording sample 68
+human_hi_069.wav,voice data/human/human_hi_069.wav,human,Real Human Recording,OpenSLR_hi_069,Male,Hindi Native,Hindi,1.57,16000,Human Hindi speech recording sample 69
+human_hi_070.wav,voice data/human/human_hi_070.wav,human,Real Human Recording,OpenSLR_hi_070,Female,Hindi Native,Hindi,8.67,16000,Human Hindi speech recording sample 70
+human_hi_071.wav,voice data/human/human_hi_071.wav,human,Real Human Recording,OpenSLR_hi_071,Male,Hindi Native,Hindi,2.37,16000,Human Hindi speech recording sample 71
+human_hi_072.wav,voice data/human/human_hi_072.wav,human,Real Human Recording,OpenSLR_hi_072,Female,Hindi Native,Hindi,2.02,16000,Human Hindi speech recording sample 72
+human_hi_073.wav,voice data/human/human_hi_073.wav,human,Real Human Recording,OpenSLR_hi_073,Male,Hindi Native,Hindi,2.5,16000,Human Hindi speech recording sample 73
+human_hi_074.wav,voice data/human/human_hi_074.wav,human,Real Human Recording,OpenSLR_hi_074,Female,Hindi Native,Hindi,3.49,16000,Human Hindi speech recording sample 74
+human_hi_075.wav,voice data/human/human_hi_075.wav,human,Real Human Recording,OpenSLR_hi_075,Male,Hindi Native,Hindi,5.86,16000,Human Hindi speech recording sample 75
+human_hi_076.wav,voice data/human/human_hi_076.wav,human,Real Human Recording,OpenSLR_hi_076,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 76
+human_hi_077.wav,voice data/human/human_hi_077.wav,human,Real Human Recording,OpenSLR_hi_077,Male,Hindi Native,Hindi,14.21,16000,Human Hindi speech recording sample 77
+human_hi_078.wav,voice data/human/human_hi_078.wav,human,Real Human Recording,OpenSLR_hi_078,Female,Hindi Native,Hindi,10.82,16000,Human Hindi speech recording sample 78
+human_hi_079.wav,voice data/human/human_hi_079.wav,human,Real Human Recording,OpenSLR_hi_079,Male,Hindi Native,Hindi,5.7,16000,Human Hindi speech recording sample 79
+human_hi_080.wav,voice data/human/human_hi_080.wav,human,Real Human Recording,OpenSLR_hi_080,Female,Hindi Native,Hindi,1.54,16000,Human Hindi speech recording sample 80
+human_hi_081.wav,voice data/human/human_hi_081.wav,human,Real Human Recording,OpenSLR_hi_081,Male,Hindi Native,Hindi,2.69,16000,Human Hindi speech recording sample 81
+human_hi_082.wav,voice data/human/human_hi_082.wav,human,Real Human Recording,OpenSLR_hi_082,Female,Hindi Native,Hindi,7.87,16000,Human Hindi speech recording sample 82
+human_hi_083.wav,voice data/human/human_hi_083.wav,human,Real Human Recording,OpenSLR_hi_083,Male,Hindi Native,Hindi,6.14,16000,Human Hindi speech recording sample 83
+human_hi_084.wav,voice data/human/human_hi_084.wav,human,Real Human Recording,OpenSLR_hi_084,Female,Hindi Native,Hindi,8.9,16000,Human Hindi speech recording sample 84
+human_hi_085.wav,voice data/human/human_hi_085.wav,human,Real Human Recording,OpenSLR_hi_085,Male,Hindi Native,Hindi,3.81,16000,Human Hindi speech recording sample 85
+human_hi_086.wav,voice data/human/human_hi_086.wav,human,Real Human Recording,OpenSLR_hi_086,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 86
+human_hi_087.wav,voice data/human/human_hi_087.wav,human,Real Human Recording,OpenSLR_hi_087,Male,Hindi Native,Hindi,1.38,16000,Human Hindi speech recording sample 87
+human_hi_088.wav,voice data/human/human_hi_088.wav,human,Real Human Recording,OpenSLR_hi_088,Female,Hindi Native,Hindi,0.9,16000,Human Hindi speech recording sample 88
+human_hi_089.wav,voice data/human/human_hi_089.wav,human,Real Human Recording,OpenSLR_hi_089,Male,Hindi Native,Hindi,1.57,16000,Human Hindi speech recording sample 89
+human_hi_090.wav,voice data/human/human_hi_090.wav,human,Real Human Recording,OpenSLR_hi_090,Female,Hindi Native,Hindi,8.67,16000,Human Hindi speech recording sample 90
+human_hi_091.wav,voice data/human/human_hi_091.wav,human,Real Human Recording,OpenSLR_hi_091,Male,Hindi Native,Hindi,2.37,16000,Human Hindi speech recording sample 91
+human_hi_092.wav,voice data/human/human_hi_092.wav,human,Real Human Recording,OpenSLR_hi_092,Female,Hindi Native,Hindi,2.02,16000,Human Hindi speech recording sample 92
+human_hi_093.wav,voice data/human/human_hi_093.wav,human,Real Human Recording,OpenSLR_hi_093,Male,Hindi Native,Hindi,2.5,16000,Human Hindi speech recording sample 93
+human_hi_094.wav,voice data/human/human_hi_094.wav,human,Real Human Recording,OpenSLR_hi_094,Female,Hindi Native,Hindi,3.49,16000,Human Hindi speech recording sample 94
+human_hi_095.wav,voice data/human/human_hi_095.wav,human,Real Human Recording,OpenSLR_hi_095,Male,Hindi Native,Hindi,5.86,16000,Human Hindi speech recording sample 95
+human_hi_096.wav,voice data/human/human_hi_096.wav,human,Real Human Recording,OpenSLR_hi_096,Female,Hindi Native,Hindi,1.66,16000,Human Hindi speech recording sample 96
+human_hi_097.wav,voice data/human/human_hi_097.wav,human,Real Human Recording,OpenSLR_hi_097,Male,Hindi Native,Hindi,14.21,16000,Human Hindi speech recording sample 97
+human_hi_098.wav,voice data/human/human_hi_098.wav,human,Real Human Recording,OpenSLR_hi_098,Female,Hindi Native,Hindi,10.82,16000,Human Hindi speech recording sample 98
+human_hi_099.wav,voice data/human/human_hi_099.wav,human,Real Human Recording,OpenSLR_hi_099,Male,Hindi Native,Hindi,5.7,16000,Human Hindi speech recording sample 99
+human_hi_100.wav,voice data/human/human_hi_100.wav,human,Real Human Recording,OpenSLR_hi_100,Female,Hindi Native,Hindi,1.54,16000,Human Hindi speech recording sample 100
+human_mr_001.wav,voice data/human/human_mr_001.wav,human,Real Human Recording,OpenSLR_mr_001,Male,Marathi Native,Marathi,2.69,16000,Human Marathi speech recording sample 1
+human_mr_002.wav,voice data/human/human_mr_002.wav,human,Real Human Recording,OpenSLR_mr_002,Female,Marathi Native,Marathi,7.87,16000,Human Marathi speech recording sample 2
+human_mr_003.wav,voice data/human/human_mr_003.wav,human,Real Human Recording,OpenSLR_mr_003,Male,Marathi Native,Marathi,6.14,16000,Human Marathi speech recording sample 3
+human_mr_004.wav,voice data/human/human_mr_004.wav,human,Real Human Recording,OpenSLR_mr_004,Female,Marathi Native,Marathi,8.9,16000,Human Marathi speech recording sample 4
+human_mr_005.wav,voice data/human/human_mr_005.wav,human,Real Human Recording,OpenSLR_mr_005,Male,Marathi Native,Marathi,3.81,16000,Human Marathi speech recording sample 5
+human_mr_006.wav,voice data/human/human_mr_006.wav,human,Real Human Recording,OpenSLR_mr_006,Female,Marathi Native,Marathi,1.66,16000,Human Marathi speech recording sample 6
+human_mr_007.wav,voice data/human/human_mr_007.wav,human,Real Human Recording,OpenSLR_mr_007,Male,Marathi Native,Marathi,1.38,16000,Human Marathi speech recording sample 7
+human_mr_008.wav,voice data/human/human_mr_008.wav,human,Real Human Recording,OpenSLR_mr_008,Female,Marathi Native,Marathi,0.9,16000,Human Marathi speech recording sample 8
+human_mr_009.wav,voice data/human/human_mr_009.wav,human,Real Human Recording,OpenSLR_mr_009,Male,Marathi Native,Marathi,1.57,16000,Human Marathi speech recording sample 9
+human_mr_010.wav,voice data/human/human_mr_010.wav,human,Real Human Recording,OpenSLR_mr_010,Female,Marathi Native,Marathi,8.67,16000,Human Marathi speech recording sample 10
+human_mr_011.wav,voice data/human/human_mr_011.wav,human,Real Human Recording,OpenSLR_mr_011,Male,Marathi Native,Marathi,2.37,16000,Human Marathi speech recording sample 11
+human_mr_012.wav,voice data/human/human_mr_012.wav,human,Real Human Recording,OpenSLR_mr_012,Female,Marathi Native,Marathi,2.02,16000,Human Marathi speech recording sample 12
+human_mr_013.wav,voice data/human/human_mr_013.wav,human,Real Human Recording,OpenSLR_mr_013,Male,Marathi Native,Marathi,2.5,16000,Human Marathi speech recording sample 13
+human_mr_014.wav,voice data/human/human_mr_014.wav,human,Real Human Recording,OpenSLR_mr_014,Female,Marathi Native,Marathi,3.49,16000,Human Marathi speech recording sample 14
+human_mr_015.wav,voice data/human/human_mr_015.wav,human,Real Human Recording,OpenSLR_mr_015,Male,Marathi Native,Marathi,5.86,16000,Human Marathi speech recording sample 15
+human_mr_016.wav,voice data/human/human_mr_016.wav,human,Real Human Recording,OpenSLR_mr_016,Female,Marathi Native,Marathi,1.66,16000,Human Marathi speech recording sample 16
+human_mr_017.wav,voice data/human/human_mr_017.wav,human,Real Human Recording,OpenSLR_mr_017,Male,Marathi Native,Marathi,14.21,16000,Human Marathi speech recording sample 17
+human_mr_018.wav,voice data/human/human_mr_018.wav,human,Real Human Recording,OpenSLR_mr_018,Female,Marathi Native,Marathi,10.82,16000,Human Marathi speech recording sample 18
+human_mr_019.wav,voice data/human/human_mr_019.wav,human,Real Human Recording,OpenSLR_mr_019,Male,Marathi Native,Marathi,5.7,16000,Human Marathi speech recording sample 19
+human_mr_020.wav,voice data/human/human_mr_020.wav,human,Real Human Recording,OpenSLR_mr_020,Female,Marathi Native,Marathi,1.54,16000,Human Marathi speech recording sample 20
+human_mr_021.wav,voice data/human/human_mr_021.wav,human,Real Human Recording,OpenSLR_mr_021,Male,Marathi Native,Marathi,2.69,16000,Human Marathi speech recording sample 21
+human_mr_022.wav,voice data/human/human_mr_022.wav,human,Real Human Recording,OpenSLR_mr_022,Female,Marathi Native,Marathi,7.87,16000,Human Marathi speech recording sample 22
+human_mr_023.wav,voice data/human/human_mr_023.wav,human,Real Human Recording,OpenSLR_mr_023,Male,Marathi Native,Marathi,6.14,16000,Human Marathi speech recording sample 23
+human_mr_024.wav,voice data/human/human_mr_024.wav,human,Real Human Recording,OpenSLR_mr_024,Female,Marathi Native,Marathi,8.9,16000,Human Marathi speech recording sample 24
+human_mr_025.wav,voice data/human/human_mr_025.wav,human,Real Human Recording,OpenSLR_mr_025,Male,Marathi Native,Marathi,3.81,16000,Human Marathi speech recording sample 25
+human_mr_026.wav,voice data/human/human_mr_026.wav,human,Real Human Recording,OpenSLR_mr_026,Female,Marathi Native,Marathi,1.66,16000,Human Marathi speech recording sample 26
+human_mr_027.wav,voice data/human/human_mr_027.wav,human,Real Human Recording,OpenSLR_mr_027,Male,Marathi Native,Marathi,1.38,16000,Human Marathi speech recording sample 27
+human_mr_028.wav,voice data/human/human_mr_028.wav,human,Real Human Recording,OpenSLR_mr_028,Female,Marathi Native,Marathi,0.9,16000,Human Marathi speech recording sample 28
+human_mr_029.wav,voice data/human/human_mr_029.wav,human,Real Human Recording,OpenSLR_mr_029,Male,Marathi Native,Marathi,1.57,16000,Human Marathi speech recording sample 29
+human_mr_030.wav,voice data/human/human_mr_030.wav,human,Real Human Recording,OpenSLR_mr_030,Female,Marathi Native,Marathi,8.67,16000,Human Marathi speech recording sample 30
+human_mr_031.wav,voice data/human/human_mr_031.wav,human,Real Human Recording,OpenSLR_mr_031,Male,Marathi Native,Marathi,2.37,16000,Human Marathi speech recording sample 31
+human_mr_032.wav,voice data/human/human_mr_032.wav,human,Real Human Recording,OpenSLR_mr_032,Female,Marathi Native,Marathi,2.02,16000,Human Marathi speech recording sample 32
+human_mr_033.wav,voice data/human/human_mr_033.wav,human,Real Human Recording,OpenSLR_mr_033,Male,Marathi Native,Marathi,2.5,16000,Human Marathi speech recording sample 33
+human_mr_034.wav,voice data/human/human_mr_034.wav,human,Real Human Recording,OpenSLR_mr_034,Female,Marathi Native,Marathi,3.49,16000,Human Marathi speech recording sample 34
+human_mr_035.wav,voice data/human/human_mr_035.wav,human,Real Human Recording,OpenSLR_mr_035,Male,Marathi Native,Marathi,5.86,16000,Human Marathi speech recording sample 35
+human_mr_036.wav,voice data/human/human_mr_036.wav,human,Real Human Recording,OpenSLR_mr_036,Female,Marathi Native,Marathi,1.66,16000,Human Marathi speech recording sample 36
+human_mr_037.wav,voice data/human/human_mr_037.wav,human,Real Human Recording,OpenSLR_mr_037,Male,Marathi Native,Marathi,14.21,16000,Human Marathi speech recording sample 37
+human_mr_038.wav,voice data/human/human_mr_038.wav,human,Real Human Recording,OpenSLR_mr_038,Female,Marathi Native,Marathi,10.82,16000,Human Marathi speech recording sample 38
+human_mr_039.wav,voice data/human/human_mr_039.wav,human,Real Human Recording,OpenSLR_mr_039,Male,Marathi Native,Marathi,5.7,16000,Human Marathi speech recording sample 39
+human_mr_040.wav,voice data/human/human_mr_040.wav,human,Real Human Recording,OpenSLR_mr_040,Female,Marathi Native,Marathi,1.54,16000,Human Marathi speech recording sample 40
+human_mr_041.wav,voice data/human/human_mr_041.wav,human,Real Human Recording,OpenSLR_mr_041,Male,Marathi Native,Marathi,2.69,16000,Human Marathi speech recording sample 41
+human_mr_042.wav,voice data/human/human_mr_042.wav,human,Real Human Recording,OpenSLR_mr_042,Female,Marathi Native,Marathi,7.87,16000,Human Marathi speech recording sample 42
+human_mr_043.wav,voice data/human/human_mr_043.wav,human,Real Human Recording,OpenSLR_mr_043,Male,Marathi Native,Marathi,6.14,16000,Human Marathi speech recording sample 43
+human_mr_044.wav,voice data/human/human_mr_044.wav,human,Real Human Recording,OpenSLR_mr_044,Female,Marathi Native,Marathi,8.9,16000,Human Marathi speech recording sample 44
+human_mr_045.wav,voice data/human/human_mr_045.wav,human,Real Human Recording,OpenSLR_mr_045,Male,Marathi Native,Marathi,3.81,16000,Human Marathi speech recording sample 45
+human_mr_046.wav,voice data/human/human_mr_046.wav,human,Real Human Recording,OpenSLR_mr_046,Female,Marathi Native,Marathi,1.66,16000,Human Marathi speech recording sample 46
+human_mr_047.wav,voice data/human/human_mr_047.wav,human,Real Human Recording,OpenSLR_mr_047,Male,Marathi Native,Marathi,1.38,16000,Human Marathi speech recording sample 47
+human_mr_048.wav,voice data/human/human_mr_048.wav,human,Real Human Recording,OpenSLR_mr_048,Female,Marathi Native,Marathi,0.9,16000,Human Marathi speech recording sample 48
+human_mr_049.wav,voice data/human/human_mr_049.wav,human,Real Human Recording,OpenSLR_mr_049,Male,Marathi Native,Marathi,1.57,16000,Human Marathi speech recording sample 49
+human_mr_050.wav,voice data/human/human_mr_050.wav,human,Real Human Recording,OpenSLR_mr_050,Female,Marathi Native,Marathi,8.67,16000,Human Marathi speech recording sample 50
+human_gu_001.wav,voice data/human/human_gu_001.wav,human,Real Human Recording,OpenSLR_gu_001,Female,Gujarati Native,Gujarati,1.54,16000,Human Gujarati speech recording sample 1
+human_gu_002.wav,voice data/human/human_gu_002.wav,human,Real Human Recording,OpenSLR_gu_002,Male,Gujarati Native,Gujarati,2.69,16000,Human Gujarati speech recording sample 2
+human_gu_003.wav,voice data/human/human_gu_003.wav,human,Real Human Recording,OpenSLR_gu_003,Female,Gujarati Native,Gujarati,6.0,16000,Human Gujarati speech recording sample 3
+human_gu_004.wav,voice data/human/human_gu_004.wav,human,Real Human Recording,OpenSLR_gu_004,Male,Gujarati Native,Gujarati,6.0,16000,Human Gujarati speech recording sample 4
+human_gu_005.wav,voice data/human/human_gu_005.wav,human,Real Human Recording,OpenSLR_gu_005,Female,Gujarati Native,Gujarati,6.0,16000,Human Gujarati speech recording sample 5
+human_gu_006.wav,voice data/human/human_gu_006.wav,human,Real Human Recording,OpenSLR_gu_006,Male,Gujarati Native,Gujarati,3.81,16000,Human Gujarati speech recording sample 6
+human_gu_007.wav,voice data/human/human_gu_007.wav,human,Real Human Recording,OpenSLR_gu_007,Female,Gujarati Native,Gujarati,1.66,16000,Human Gujarati speech recording sample 7
+human_gu_008.wav,voice data/human/human_gu_008.wav,human,Real Human Recording,OpenSLR_gu_008,Male,Gujarati Native,Gujarati,1.38,16000,Human Gujarati speech recording sample 8
+human_gu_009.wav,voice data/human/human_gu_009.wav,human,Real Human Recording,OpenSLR_gu_009,Female,Gujarati Native,Gujarati,0.9,16000,Human Gujarati speech recording sample 9
+human_gu_010.wav,voice data/human/human_gu_010.wav,human,Real Human Recording,OpenSLR_gu_010,Male,Gujarati Native,Gujarati,1.57,16000,Human Gujarati speech recording sample 10
+human_gu_011.wav,voice data/human/human_gu_011.wav,human,Real Human Recording,OpenSLR_gu_011,Female,Gujarati Native,Gujarati,6.0,16000,Human Gujarati speech recording sample 11
+human_gu_012.wav,voice data/human/human_gu_012.wav,human,Real Human Recording,OpenSLR_gu_012,Male,Gujarati Native,Gujarati,2.37,16000,Human Gujarati speech recording sample 12
+human_gu_013.wav,voice data/human/human_gu_013.wav,human,Real Human Recording,OpenSLR_gu_013,Female,Gujarati Native,Gujarati,2.02,16000,Human Gujarati speech recording sample 13
+human_gu_014.wav,voice data/human/human_gu_014.wav,human,Real Human Recording,OpenSLR_gu_014,Male,Gujarati Native,Gujarati,2.5,16000,Human Gujarati speech recording sample 14
+human_gu_015.wav,voice data/human/human_gu_015.wav,human,Real Human Recording,OpenSLR_gu_015,Female,Gujarati Native,Gujarati,3.49,16000,Human Gujarati speech recording sample 15
+human_gu_016.wav,voice data/human/human_gu_016.wav,human,Real Human Recording,OpenSLR_gu_016,Male,Gujarati Native,Gujarati,5.86,16000,Human Gujarati speech recording sample 16
+human_gu_017.wav,voice data/human/human_gu_017.wav,human,Real Human Recording,OpenSLR_gu_017,Female,Gujarati Native,Gujarati,1.66,16000,Human Gujarati speech recording sample 17
+human_gu_018.wav,voice data/human/human_gu_018.wav,human,Real Human Recording,OpenSLR_gu_018,Male,Gujarati Native,Gujarati,6.0,16000,Human Gujarati speech recording sample 18
+human_gu_019.wav,voice data/human/human_gu_019.wav,human,Real Human Recording,OpenSLR_gu_019,Female,Gujarati Native,Gujarati,6.0,16000,Human Gujarati speech recording sample 19
+human_gu_020.wav,voice data/human/human_gu_020.wav,human,Real Human Recording,OpenSLR_gu_020,Male,Gujarati Native,Gujarati,5.7,16000,Human Gujarati speech recording sample 20
+human_bn_001.wav,voice data/human/human_bn_001.wav,human,Real Human Recording,OpenSLR_bn_001,Female,Bengali Native,Bengali,1.54,16000,Human Bengali speech recording sample 1
+human_bn_002.wav,voice data/human/human_bn_002.wav,human,Real Human Recording,OpenSLR_bn_002,Male,Bengali Native,Bengali,2.69,16000,Human Bengali speech recording sample 2
+human_bn_003.wav,voice data/human/human_bn_003.wav,human,Real Human Recording,OpenSLR_bn_003,Female,Bengali Native,Bengali,6.0,16000,Human Bengali speech recording sample 3
+human_bn_004.wav,voice data/human/human_bn_004.wav,human,Real Human Recording,OpenSLR_bn_004,Male,Bengali Native,Bengali,6.0,16000,Human Bengali speech recording sample 4
+human_bn_005.wav,voice data/human/human_bn_005.wav,human,Real Human Recording,OpenSLR_bn_005,Female,Bengali Native,Bengali,6.0,16000,Human Bengali speech recording sample 5
+human_bn_006.wav,voice data/human/human_bn_006.wav,human,Real Human Recording,OpenSLR_bn_006,Male,Bengali Native,Bengali,3.81,16000,Human Bengali speech recording sample 6
+human_bn_007.wav,voice data/human/human_bn_007.wav,human,Real Human Recording,OpenSLR_bn_007,Female,Bengali Native,Bengali,1.66,16000,Human Bengali speech recording sample 7
+human_bn_008.wav,voice data/human/human_bn_008.wav,human,Real Human Recording,OpenSLR_bn_008,Male,Bengali Native,Bengali,1.38,16000,Human Bengali speech recording sample 8
+human_bn_009.wav,voice data/human/human_bn_009.wav,human,Real Human Recording,OpenSLR_bn_009,Female,Bengali Native,Bengali,0.9,16000,Human Bengali speech recording sample 9
+human_bn_010.wav,voice data/human/human_bn_010.wav,human,Real Human Recording,OpenSLR_bn_010,Male,Bengali Native,Bengali,1.57,16000,Human Bengali speech recording sample 10
+human_bn_011.wav,voice data/human/human_bn_011.wav,human,Real Human Recording,OpenSLR_bn_011,Female,Bengali Native,Bengali,6.0,16000,Human Bengali speech recording sample 11
+human_bn_012.wav,voice data/human/human_bn_012.wav,human,Real Human Recording,OpenSLR_bn_012,Male,Bengali Native,Bengali,2.37,16000,Human Bengali speech recording sample 12
+human_bn_013.wav,voice data/human/human_bn_013.wav,human,Real Human Recording,OpenSLR_bn_013,Female,Bengali Native,Bengali,2.02,16000,Human Bengali speech recording sample 13
+human_bn_014.wav,voice data/human/human_bn_014.wav,human,Real Human Recording,OpenSLR_bn_014,Male,Bengali Native,Bengali,2.5,16000,Human Bengali speech recording sample 14
+human_bn_015.wav,voice data/human/human_bn_015.wav,human,Real Human Recording,OpenSLR_bn_015,Female,Bengali Native,Bengali,3.49,16000,Human Bengali speech recording sample 15
+human_bn_016.wav,voice data/human/human_bn_016.wav,human,Real Human Recording,OpenSLR_bn_016,Male,Bengali Native,Bengali,5.86,16000,Human Bengali speech recording sample 16
+human_bn_017.wav,voice data/human/human_bn_017.wav,human,Real Human Recording,OpenSLR_bn_017,Female,Bengali Native,Bengali,1.66,16000,Human Bengali speech recording sample 17
+human_bn_018.wav,voice data/human/human_bn_018.wav,human,Real Human Recording,OpenSLR_bn_018,Male,Bengali Native,Bengali,6.0,16000,Human Bengali speech recording sample 18
+human_bn_019.wav,voice data/human/human_bn_019.wav,human,Real Human Recording,OpenSLR_bn_019,Female,Bengali Native,Bengali,6.0,16000,Human Bengali speech recording sample 19
+human_bn_020.wav,voice data/human/human_bn_020.wav,human,Real Human Recording,OpenSLR_bn_020,Male,Bengali Native,Bengali,5.7,16000,Human Bengali speech recording sample 20
+human_te_001.wav,voice data/human/human_te_001.wav,human,Real Human Recording,OpenSLR_te_001,Female,Telugu Native,Telugu,1.54,16000,Human Telugu speech recording sample 1
+human_te_002.wav,voice data/human/human_te_002.wav,human,Real Human Recording,OpenSLR_te_002,Male,Telugu Native,Telugu,2.69,16000,Human Telugu speech recording sample 2
+human_te_003.wav,voice data/human/human_te_003.wav,human,Real Human Recording,OpenSLR_te_003,Female,Telugu Native,Telugu,6.0,16000,Human Telugu speech recording sample 3
+human_te_004.wav,voice data/human/human_te_004.wav,human,Real Human Recording,OpenSLR_te_004,Male,Telugu Native,Telugu,6.0,16000,Human Telugu speech recording sample 4
+human_te_005.wav,voice data/human/human_te_005.wav,human,Real Human Recording,OpenSLR_te_005,Female,Telugu Native,Telugu,6.0,16000,Human Telugu speech recording sample 5
+human_te_006.wav,voice data/human/human_te_006.wav,human,Real Human Recording,OpenSLR_te_006,Male,Telugu Native,Telugu,3.81,16000,Human Telugu speech recording sample 6
+human_te_007.wav,voice data/human/human_te_007.wav,human,Real Human Recording,OpenSLR_te_007,Female,Telugu Native,Telugu,1.66,16000,Human Telugu speech recording sample 7
+human_te_008.wav,voice data/human/human_te_008.wav,human,Real Human Recording,OpenSLR_te_008,Male,Telugu Native,Telugu,1.38,16000,Human Telugu speech recording sample 8
+human_te_009.wav,voice data/human/human_te_009.wav,human,Real Human Recording,OpenSLR_te_009,Female,Telugu Native,Telugu,0.9,16000,Human Telugu speech recording sample 9
+human_te_010.wav,voice data/human/human_te_010.wav,human,Real Human Recording,OpenSLR_te_010,Male,Telugu Native,Telugu,1.57,16000,Human Telugu speech recording sample 10
+human_te_011.wav,voice data/human/human_te_011.wav,human,Real Human Recording,OpenSLR_te_011,Female,Telugu Native,Telugu,6.0,16000,Human Telugu speech recording sample 11
+human_te_012.wav,voice data/human/human_te_012.wav,human,Real Human Recording,OpenSLR_te_012,Male,Telugu Native,Telugu,2.37,16000,Human Telugu speech recording sample 12
+human_te_013.wav,voice data/human/human_te_013.wav,human,Real Human Recording,OpenSLR_te_013,Female,Telugu Native,Telugu,2.02,16000,Human Telugu speech recording sample 13
+human_te_014.wav,voice data/human/human_te_014.wav,human,Real Human Recording,OpenSLR_te_014,Male,Telugu Native,Telugu,2.5,16000,Human Telugu speech recording sample 14
+human_te_015.wav,voice data/human/human_te_015.wav,human,Real Human Recording,OpenSLR_te_015,Female,Telugu Native,Telugu,3.49,16000,Human Telugu speech recording sample 15
+human_te_016.wav,voice data/human/human_te_016.wav,human,Real Human Recording,OpenSLR_te_016,Male,Telugu Native,Telugu,5.86,16000,Human Telugu speech recording sample 16
+human_te_017.wav,voice data/human/human_te_017.wav,human,Real Human Recording,OpenSLR_te_017,Female,Telugu Native,Telugu,1.66,16000,Human Telugu speech recording sample 17
+human_te_018.wav,voice data/human/human_te_018.wav,human,Real Human Recording,OpenSLR_te_018,Male,Telugu Native,Telugu,6.0,16000,Human Telugu speech recording sample 18
+human_te_019.wav,voice data/human/human_te_019.wav,human,Real Human Recording,OpenSLR_te_019,Female,Telugu Native,Telugu,6.0,16000,Human Telugu speech recording sample 19
+human_te_020.wav,voice data/human/human_te_020.wav,human,Real Human Recording,OpenSLR_te_020,Male,Telugu Native,Telugu,5.7,16000,Human Telugu speech recording sample 20
+human_ta_001.wav,voice data/human/human_ta_001.wav,human,Real Human Recording,OpenSLR_ta_001,Female,Tamil Native,Tamil,1.54,16000,Human Tamil speech recording sample 1
+human_ta_002.wav,voice data/human/human_ta_002.wav,human,Real Human Recording,OpenSLR_ta_002,Male,Tamil Native,Tamil,2.69,16000,Human Tamil speech recording sample 2
+human_ta_003.wav,voice data/human/human_ta_003.wav,human,Real Human Recording,OpenSLR_ta_003,Female,Tamil Native,Tamil,6.0,16000,Human Tamil speech recording sample 3
+human_ta_004.wav,voice data/human/human_ta_004.wav,human,Real Human Recording,OpenSLR_ta_004,Male,Tamil Native,Tamil,6.0,16000,Human Tamil speech recording sample 4
+human_ta_005.wav,voice data/human/human_ta_005.wav,human,Real Human Recording,OpenSLR_ta_005,Female,Tamil Native,Tamil,6.0,16000,Human Tamil speech recording sample 5
+human_ta_006.wav,voice data/human/human_ta_006.wav,human,Real Human Recording,OpenSLR_ta_006,Male,Tamil Native,Tamil,3.81,16000,Human Tamil speech recording sample 6
+human_ta_007.wav,voice data/human/human_ta_007.wav,human,Real Human Recording,OpenSLR_ta_007,Female,Tamil Native,Tamil,1.66,16000,Human Tamil speech recording sample 7
+human_ta_008.wav,voice data/human/human_ta_008.wav,human,Real Human Recording,OpenSLR_ta_008,Male,Tamil Native,Tamil,1.38,16000,Human Tamil speech recording sample 8
+human_ta_009.wav,voice data/human/human_ta_009.wav,human,Real Human Recording,OpenSLR_ta_009,Female,Tamil Native,Tamil,0.9,16000,Human Tamil speech recording sample 9
+human_ta_010.wav,voice data/human/human_ta_010.wav,human,Real Human Recording,OpenSLR_ta_010,Male,Tamil Native,Tamil,1.57,16000,Human Tamil speech recording sample 10
+human_ta_011.wav,voice data/human/human_ta_011.wav,human,Real Human Recording,OpenSLR_ta_011,Female,Tamil Native,Tamil,6.0,16000,Human Tamil speech recording sample 11
+human_ta_012.wav,voice data/human/human_ta_012.wav,human,Real Human Recording,OpenSLR_ta_012,Male,Tamil Native,Tamil,2.37,16000,Human Tamil speech recording sample 12
+human_ta_013.wav,voice data/human/human_ta_013.wav,human,Real Human Recording,OpenSLR_ta_013,Female,Tamil Native,Tamil,2.02,16000,Human Tamil speech recording sample 13
+human_ta_014.wav,voice data/human/human_ta_014.wav,human,Real Human Recording,OpenSLR_ta_014,Male,Tamil Native,Tamil,2.5,16000,Human Tamil speech recording sample 14
+human_ta_015.wav,voice data/human/human_ta_015.wav,human,Real Human Recording,OpenSLR_ta_015,Female,Tamil Native,Tamil,3.49,16000,Human Tamil speech recording sample 15
+human_ta_016.wav,voice data/human/human_ta_016.wav,human,Real Human Recording,OpenSLR_ta_016,Male,Tamil Native,Tamil,5.86,16000,Human Tamil speech recording sample 16
+human_ta_017.wav,voice data/human/human_ta_017.wav,human,Real Human Recording,OpenSLR_ta_017,Female,Tamil Native,Tamil,1.66,16000,Human Tamil speech recording sample 17
+human_ta_018.wav,voice data/human/human_ta_018.wav,human,Real Human Recording,OpenSLR_ta_018,Male,Tamil Native,Tamil,6.0,16000,Human Tamil speech recording sample 18
+human_ta_019.wav,voice data/human/human_ta_019.wav,human,Real Human Recording,OpenSLR_ta_019,Female,Tamil Native,Tamil,6.0,16000,Human Tamil speech recording sample 19
+human_ta_020.wav,voice data/human/human_ta_020.wav,human,Real Human Recording,OpenSLR_ta_020,Male,Tamil Native,Tamil,5.7,16000,Human Tamil speech recording sample 20
+human_ur_001.wav,voice data/human/human_ur_001.wav,human,Real Human Recording,OpenSLR_ur_001,Female,Urdu Native,Urdu,1.54,16000,Human Urdu speech recording sample 1
+human_ur_002.wav,voice data/human/human_ur_002.wav,human,Real Human Recording,OpenSLR_ur_002,Male,Urdu Native,Urdu,2.69,16000,Human Urdu speech recording sample 2
+human_ur_003.wav,voice data/human/human_ur_003.wav,human,Real Human Recording,OpenSLR_ur_003,Female,Urdu Native,Urdu,6.0,16000,Human Urdu speech recording sample 3
+human_ur_004.wav,voice data/human/human_ur_004.wav,human,Real Human Recording,OpenSLR_ur_004,Male,Urdu Native,Urdu,6.0,16000,Human Urdu speech recording sample 4
+human_ur_005.wav,voice data/human/human_ur_005.wav,human,Real Human Recording,OpenSLR_ur_005,Female,Urdu Native,Urdu,6.0,16000,Human Urdu speech recording sample 5
+human_ur_006.wav,voice data/human/human_ur_006.wav,human,Real Human Recording,OpenSLR_ur_006,Male,Urdu Native,Urdu,3.81,16000,Human Urdu speech recording sample 6
+human_ur_007.wav,voice data/human/human_ur_007.wav,human,Real Human Recording,OpenSLR_ur_007,Female,Urdu Native,Urdu,1.66,16000,Human Urdu speech recording sample 7
+human_ur_008.wav,voice data/human/human_ur_008.wav,human,Real Human Recording,OpenSLR_ur_008,Male,Urdu Native,Urdu,1.38,16000,Human Urdu speech recording sample 8
+human_ur_009.wav,voice data/human/human_ur_009.wav,human,Real Human Recording,OpenSLR_ur_009,Female,Urdu Native,Urdu,0.9,16000,Human Urdu speech recording sample 9
+human_ur_010.wav,voice data/human/human_ur_010.wav,human,Real Human Recording,OpenSLR_ur_010,Male,Urdu Native,Urdu,1.57,16000,Human Urdu speech recording sample 10
+human_ur_011.wav,voice data/human/human_ur_011.wav,human,Real Human Recording,OpenSLR_ur_011,Female,Urdu Native,Urdu,6.0,16000,Human Urdu speech recording sample 11
+human_ur_012.wav,voice data/human/human_ur_012.wav,human,Real Human Recording,OpenSLR_ur_012,Male,Urdu Native,Urdu,2.37,16000,Human Urdu speech recording sample 12
+human_ur_013.wav,voice data/human/human_ur_013.wav,human,Real Human Recording,OpenSLR_ur_013,Female,Urdu Native,Urdu,2.02,16000,Human Urdu speech recording sample 13
+human_ur_014.wav,voice data/human/human_ur_014.wav,human,Real Human Recording,OpenSLR_ur_014,Male,Urdu Native,Urdu,2.5,16000,Human Urdu speech recording sample 14
+human_ur_015.wav,voice data/human/human_ur_015.wav,human,Real Human Recording,OpenSLR_ur_015,Female,Urdu Native,Urdu,3.49,16000,Human Urdu speech recording sample 15
+human_ur_016.wav,voice data/human/human_ur_016.wav,human,Real Human Recording,OpenSLR_ur_016,Male,Urdu Native,Urdu,5.86,16000,Human Urdu speech recording sample 16
+human_ur_017.wav,voice data/human/human_ur_017.wav,human,Real Human Recording,OpenSLR_ur_017,Female,Urdu Native,Urdu,1.66,16000,Human Urdu speech recording sample 17
+human_ur_018.wav,voice data/human/human_ur_018.wav,human,Real Human Recording,OpenSLR_ur_018,Male,Urdu Native,Urdu,6.0,16000,Human Urdu speech recording sample 18
+human_ur_019.wav,voice data/human/human_ur_019.wav,human,Real Human Recording,OpenSLR_ur_019,Female,Urdu Native,Urdu,6.0,16000,Human Urdu speech recording sample 19
+human_ur_020.wav,voice data/human/human_ur_020.wav,human,Real Human Recording,OpenSLR_ur_020,Male,Urdu Native,Urdu,5.7,16000,Human Urdu speech recording sample 20
+human_kn_001.wav,voice data/human/human_kn_001.wav,human,Real Human Recording,OpenSLR_kn_001,Female,Kannada Native,Kannada,1.54,16000,Human Kannada speech recording sample 1
+human_kn_002.wav,voice data/human/human_kn_002.wav,human,Real Human Recording,OpenSLR_kn_002,Male,Kannada Native,Kannada,2.69,16000,Human Kannada speech recording sample 2
+human_kn_003.wav,voice data/human/human_kn_003.wav,human,Real Human Recording,OpenSLR_kn_003,Female,Kannada Native,Kannada,6.0,16000,Human Kannada speech recording sample 3
+human_kn_004.wav,voice data/human/human_kn_004.wav,human,Real Human Recording,OpenSLR_kn_004,Male,Kannada Native,Kannada,6.0,16000,Human Kannada speech recording sample 4
+human_kn_005.wav,voice data/human/human_kn_005.wav,human,Real Human Recording,OpenSLR_kn_005,Female,Kannada Native,Kannada,6.0,16000,Human Kannada speech recording sample 5
+human_kn_006.wav,voice data/human/human_kn_006.wav,human,Real Human Recording,OpenSLR_kn_006,Male,Kannada Native,Kannada,3.81,16000,Human Kannada speech recording sample 6
+human_kn_007.wav,voice data/human/human_kn_007.wav,human,Real Human Recording,OpenSLR_kn_007,Female,Kannada Native,Kannada,1.66,16000,Human Kannada speech recording sample 7
+human_kn_008.wav,voice data/human/human_kn_008.wav,human,Real Human Recording,OpenSLR_kn_008,Male,Kannada Native,Kannada,1.38,16000,Human Kannada speech recording sample 8
+human_kn_009.wav,voice data/human/human_kn_009.wav,human,Real Human Recording,OpenSLR_kn_009,Female,Kannada Native,Kannada,0.9,16000,Human Kannada speech recording sample 9
+human_kn_010.wav,voice data/human/human_kn_010.wav,human,Real Human Recording,OpenSLR_kn_010,Male,Kannada Native,Kannada,1.57,16000,Human Kannada speech recording sample 10
+human_kn_011.wav,voice data/human/human_kn_011.wav,human,Real Human Recording,OpenSLR_kn_011,Female,Kannada Native,Kannada,6.0,16000,Human Kannada speech recording sample 11
+human_kn_012.wav,voice data/human/human_kn_012.wav,human,Real Human Recording,OpenSLR_kn_012,Male,Kannada Native,Kannada,2.37,16000,Human Kannada speech recording sample 12
+human_kn_013.wav,voice data/human/human_kn_013.wav,human,Real Human Recording,OpenSLR_kn_013,Female,Kannada Native,Kannada,2.02,16000,Human Kannada speech recording sample 13
+human_kn_014.wav,voice data/human/human_kn_014.wav,human,Real Human Recording,OpenSLR_kn_014,Male,Kannada Native,Kannada,2.5,16000,Human Kannada speech recording sample 14
+human_kn_015.wav,voice data/human/human_kn_015.wav,human,Real Human Recording,OpenSLR_kn_015,Female,Kannada Native,Kannada,3.49,16000,Human Kannada speech recording sample 15
+human_kn_016.wav,voice data/human/human_kn_016.wav,human,Real Human Recording,OpenSLR_kn_016,Male,Kannada Native,Kannada,5.86,16000,Human Kannada speech recording sample 16
+human_kn_017.wav,voice data/human/human_kn_017.wav,human,Real Human Recording,OpenSLR_kn_017,Female,Kannada Native,Kannada,1.66,16000,Human Kannada speech recording sample 17
+human_kn_018.wav,voice data/human/human_kn_018.wav,human,Real Human Recording,OpenSLR_kn_018,Male,Kannada Native,Kannada,6.0,16000,Human Kannada speech recording sample 18
+human_kn_019.wav,voice data/human/human_kn_019.wav,human,Real Human Recording,OpenSLR_kn_019,Female,Kannada Native,Kannada,6.0,16000,Human Kannada speech recording sample 19
+human_kn_020.wav,voice data/human/human_kn_020.wav,human,Real Human Recording,OpenSLR_kn_020,Male,Kannada Native,Kannada,5.7,16000,Human Kannada speech recording sample 20
+human_pa_001.wav,voice data/human/human_pa_001.wav,human,Real Human Recording,OpenSLR_pa_001,Female,Punjabi Native,Punjabi,1.54,16000,Human Punjabi speech recording sample 1
+human_pa_002.wav,voice data/human/human_pa_002.wav,human,Real Human Recording,OpenSLR_pa_002,Male,Punjabi Native,Punjabi,2.69,16000,Human Punjabi speech recording sample 2
+human_pa_003.wav,voice data/human/human_pa_003.wav,human,Real Human Recording,OpenSLR_pa_003,Female,Punjabi Native,Punjabi,6.0,16000,Human Punjabi speech recording sample 3
+human_pa_004.wav,voice data/human/human_pa_004.wav,human,Real Human Recording,OpenSLR_pa_004,Male,Punjabi Native,Punjabi,6.0,16000,Human Punjabi speech recording sample 4
+human_pa_005.wav,voice data/human/human_pa_005.wav,human,Real Human Recording,OpenSLR_pa_005,Female,Punjabi Native,Punjabi,6.0,16000,Human Punjabi speech recording sample 5
+human_pa_006.wav,voice data/human/human_pa_006.wav,human,Real Human Recording,OpenSLR_pa_006,Male,Punjabi Native,Punjabi,3.81,16000,Human Punjabi speech recording sample 6
+human_pa_007.wav,voice data/human/human_pa_007.wav,human,Real Human Recording,OpenSLR_pa_007,Female,Punjabi Native,Punjabi,1.66,16000,Human Punjabi speech recording sample 7
+human_pa_008.wav,voice data/human/human_pa_008.wav,human,Real Human Recording,OpenSLR_pa_008,Male,Punjabi Native,Punjabi,1.38,16000,Human Punjabi speech recording sample 8
+human_pa_009.wav,voice data/human/human_pa_009.wav,human,Real Human Recording,OpenSLR_pa_009,Female,Punjabi Native,Punjabi,0.9,16000,Human Punjabi speech recording sample 9
+human_pa_010.wav,voice data/human/human_pa_010.wav,human,Real Human Recording,OpenSLR_pa_010,Male,Punjabi Native,Punjabi,1.57,16000,Human Punjabi speech recording sample 10
+human_pa_011.wav,voice data/human/human_pa_011.wav,human,Real Human Recording,OpenSLR_pa_011,Female,Punjabi Native,Punjabi,6.0,16000,Human Punjabi speech recording sample 11
+human_pa_012.wav,voice data/human/human_pa_012.wav,human,Real Human Recording,OpenSLR_pa_012,Male,Punjabi Native,Punjabi,2.37,16000,Human Punjabi speech recording sample 12
+human_pa_013.wav,voice data/human/human_pa_013.wav,human,Real Human Recording,OpenSLR_pa_013,Female,Punjabi Native,Punjabi,2.02,16000,Human Punjabi speech recording sample 13
+human_pa_014.wav,voice data/human/human_pa_014.wav,human,Real Human Recording,OpenSLR_pa_014,Male,Punjabi Native,Punjabi,2.5,16000,Human Punjabi speech recording sample 14
+human_pa_015.wav,voice data/human/human_pa_015.wav,human,Real Human Recording,OpenSLR_pa_015,Female,Punjabi Native,Punjabi,3.49,16000,Human Punjabi speech recording sample 15
+human_pa_016.wav,voice data/human/human_pa_016.wav,human,Real Human Recording,OpenSLR_pa_016,Male,Punjabi Native,Punjabi,5.86,16000,Human Punjabi speech recording sample 16
+human_pa_017.wav,voice data/human/human_pa_017.wav,human,Real Human Recording,OpenSLR_pa_017,Female,Punjabi Native,Punjabi,1.66,16000,Human Punjabi speech recording sample 17
+human_pa_018.wav,voice data/human/human_pa_018.wav,human,Real Human Recording,OpenSLR_pa_018,Male,Punjabi Native,Punjabi,6.0,16000,Human Punjabi speech recording sample 18
+human_pa_019.wav,voice data/human/human_pa_019.wav,human,Real Human Recording,OpenSLR_pa_019,Female,Punjabi Native,Punjabi,6.0,16000,Human Punjabi speech recording sample 19
+human_pa_020.wav,voice data/human/human_pa_020.wav,human,Real Human Recording,OpenSLR_pa_020,Male,Punjabi Native,Punjabi,5.7,16000,Human Punjabi speech recording sample 20
+human_or_001.wav,voice data/human/human_or_001.wav,human,Real Human Recording,OpenSLR_or_001,Male,Odia Native,Odia,2.69,16000,Human Odia speech recording sample 1
+human_or_002.wav,voice data/human/human_or_002.wav,human,Real Human Recording,OpenSLR_or_002,Female,Odia Native,Odia,7.87,16000,Human Odia speech recording sample 2
+human_or_003.wav,voice data/human/human_or_003.wav,human,Real Human Recording,OpenSLR_or_003,Male,Odia Native,Odia,6.14,16000,Human Odia speech recording sample 3
+human_or_004.wav,voice data/human/human_or_004.wav,human,Real Human Recording,OpenSLR_or_004,Female,Odia Native,Odia,8.9,16000,Human Odia speech recording sample 4
+human_or_005.wav,voice data/human/human_or_005.wav,human,Real Human Recording,OpenSLR_or_005,Male,Odia Native,Odia,3.81,16000,Human Odia speech recording sample 5
+human_or_006.wav,voice data/human/human_or_006.wav,human,Real Human Recording,OpenSLR_or_006,Female,Odia Native,Odia,1.66,16000,Human Odia speech recording sample 6
+human_or_007.wav,voice data/human/human_or_007.wav,human,Real Human Recording,OpenSLR_or_007,Male,Odia Native,Odia,1.38,16000,Human Odia speech recording sample 7
+human_or_008.wav,voice data/human/human_or_008.wav,human,Real Human Recording,OpenSLR_or_008,Female,Odia Native,Odia,0.9,16000,Human Odia speech recording sample 8
+human_or_009.wav,voice data/human/human_or_009.wav,human,Real Human Recording,OpenSLR_or_009,Male,Odia Native,Odia,1.57,16000,Human Odia speech recording sample 9
+human_or_010.wav,voice data/human/human_or_010.wav,human,Real Human Recording,OpenSLR_or_010,Female,Odia Native,Odia,8.67,16000,Human Odia speech recording sample 10
+human_or_011.wav,voice data/human/human_or_011.wav,human,Real Human Recording,OpenSLR_or_011,Male,Odia Native,Odia,2.37,16000,Human Odia speech recording sample 11
+human_or_012.wav,voice data/human/human_or_012.wav,human,Real Human Recording,OpenSLR_or_012,Female,Odia Native,Odia,2.02,16000,Human Odia speech recording sample 12
+human_or_013.wav,voice data/human/human_or_013.wav,human,Real Human Recording,OpenSLR_or_013,Male,Odia Native,Odia,2.5,16000,Human Odia speech recording sample 13
+human_or_014.wav,voice data/human/human_or_014.wav,human,Real Human Recording,OpenSLR_or_014,Female,Odia Native,Odia,3.49,16000,Human Odia speech recording sample 14
+human_or_015.wav,voice data/human/human_or_015.wav,human,Real Human Recording,OpenSLR_or_015,Male,Odia Native,Odia,5.86,16000,Human Odia speech recording sample 15
+human_or_016.wav,voice data/human/human_or_016.wav,human,Real Human Recording,OpenSLR_or_016,Female,Odia Native,Odia,1.66,16000,Human Odia speech recording sample 16
+human_or_017.wav,voice data/human/human_or_017.wav,human,Real Human Recording,OpenSLR_or_017,Male,Odia Native,Odia,14.21,16000,Human Odia speech recording sample 17
+human_or_018.wav,voice data/human/human_or_018.wav,human,Real Human Recording,OpenSLR_or_018,Female,Odia Native,Odia,10.82,16000,Human Odia speech recording sample 18
+human_or_019.wav,voice data/human/human_or_019.wav,human,Real Human Recording,OpenSLR_or_019,Male,Odia Native,Odia,5.7,16000,Human Odia speech recording sample 19
+human_or_020.wav,voice data/human/human_or_020.wav,human,Real Human Recording,OpenSLR_or_020,Female,Odia Native,Odia,1.54,16000,Human Odia speech recording sample 20
+human_as_001.wav,voice data/human/human_as_001.wav,human,Real Human Recording,OpenSLR_as_001,Female,Assamese Native,Assamese,1.54,16000,Human Assamese speech recording sample 1
+human_as_002.wav,voice data/human/human_as_002.wav,human,Real Human Recording,OpenSLR_as_002,Male,Assamese Native,Assamese,2.69,16000,Human Assamese speech recording sample 2
+human_as_003.wav,voice data/human/human_as_003.wav,human,Real Human Recording,OpenSLR_as_003,Female,Assamese Native,Assamese,6.0,16000,Human Assamese speech recording sample 3
+human_as_004.wav,voice data/human/human_as_004.wav,human,Real Human Recording,OpenSLR_as_004,Male,Assamese Native,Assamese,6.0,16000,Human Assamese speech recording sample 4
+human_as_005.wav,voice data/human/human_as_005.wav,human,Real Human Recording,OpenSLR_as_005,Female,Assamese Native,Assamese,6.0,16000,Human Assamese speech recording sample 5
+human_as_006.wav,voice data/human/human_as_006.wav,human,Real Human Recording,OpenSLR_as_006,Male,Assamese Native,Assamese,3.81,16000,Human Assamese speech recording sample 6
+human_as_007.wav,voice data/human/human_as_007.wav,human,Real Human Recording,OpenSLR_as_007,Female,Assamese Native,Assamese,1.66,16000,Human Assamese speech recording sample 7
+human_as_008.wav,voice data/human/human_as_008.wav,human,Real Human Recording,OpenSLR_as_008,Male,Assamese Native,Assamese,1.38,16000,Human Assamese speech recording sample 8
+human_as_009.wav,voice data/human/human_as_009.wav,human,Real Human Recording,OpenSLR_as_009,Female,Assamese Native,Assamese,0.9,16000,Human Assamese speech recording sample 9
+human_as_010.wav,voice data/human/human_as_010.wav,human,Real Human Recording,OpenSLR_as_010,Male,Assamese Native,Assamese,1.57,16000,Human Assamese speech recording sample 10
+human_as_011.wav,voice data/human/human_as_011.wav,human,Real Human Recording,OpenSLR_as_011,Female,Assamese Native,Assamese,6.0,16000,Human Assamese speech recording sample 11
+human_as_012.wav,voice data/human/human_as_012.wav,human,Real Human Recording,OpenSLR_as_012,Male,Assamese Native,Assamese,2.37,16000,Human Assamese speech recording sample 12
+human_as_013.wav,voice data/human/human_as_013.wav,human,Real Human Recording,OpenSLR_as_013,Female,Assamese Native,Assamese,2.02,16000,Human Assamese speech recording sample 13
+human_as_014.wav,voice data/human/human_as_014.wav,human,Real Human Recording,OpenSLR_as_014,Male,Assamese Native,Assamese,2.5,16000,Human Assamese speech recording sample 14
+human_as_015.wav,voice data/human/human_as_015.wav,human,Real Human Recording,OpenSLR_as_015,Female,Assamese Native,Assamese,3.49,16000,Human Assamese speech recording sample 15
+human_as_016.wav,voice data/human/human_as_016.wav,human,Real Human Recording,OpenSLR_as_016,Male,Assamese Native,Assamese,5.86,16000,Human Assamese speech recording sample 16
+human_as_017.wav,voice data/human/human_as_017.wav,human,Real Human Recording,OpenSLR_as_017,Female,Assamese Native,Assamese,1.66,16000,Human Assamese speech recording sample 17
+human_as_018.wav,voice data/human/human_as_018.wav,human,Real Human Recording,OpenSLR_as_018,Male,Assamese Native,Assamese,6.0,16000,Human Assamese speech recording sample 18
+human_as_019.wav,voice data/human/human_as_019.wav,human,Real Human Recording,OpenSLR_as_019,Female,Assamese Native,Assamese,6.0,16000,Human Assamese speech recording sample 19
+human_as_020.wav,voice data/human/human_as_020.wav,human,Real Human Recording,OpenSLR_as_020,Male,Assamese Native,Assamese,5.7,16000,Human Assamese speech recording sample 20
+human_ml_001.wav,voice data/human/human_ml_001.wav,human,Real Human Recording,OpenSLR_ml_001,Female,Malayalam Native,Malayalam,1.54,16000,Human Malayalam speech recording sample 1
+human_ml_002.wav,voice data/human/human_ml_002.wav,human,Real Human Recording,OpenSLR_ml_002,Male,Malayalam Native,Malayalam,2.69,16000,Human Malayalam speech recording sample 2
+human_ml_003.wav,voice data/human/human_ml_003.wav,human,Real Human Recording,OpenSLR_ml_003,Female,Malayalam Native,Malayalam,6.0,16000,Human Malayalam speech recording sample 3
+human_ml_004.wav,voice data/human/human_ml_004.wav,human,Real Human Recording,OpenSLR_ml_004,Male,Malayalam Native,Malayalam,6.0,16000,Human Malayalam speech recording sample 4
+human_ml_005.wav,voice data/human/human_ml_005.wav,human,Real Human Recording,OpenSLR_ml_005,Female,Malayalam Native,Malayalam,6.0,16000,Human Malayalam speech recording sample 5
+human_ml_006.wav,voice data/human/human_ml_006.wav,human,Real Human Recording,OpenSLR_ml_006,Male,Malayalam Native,Malayalam,3.81,16000,Human Malayalam speech recording sample 6
+human_ml_007.wav,voice data/human/human_ml_007.wav,human,Real Human Recording,OpenSLR_ml_007,Female,Malayalam Native,Malayalam,1.66,16000,Human Malayalam speech recording sample 7
+human_ml_008.wav,voice data/human/human_ml_008.wav,human,Real Human Recording,OpenSLR_ml_008,Male,Malayalam Native,Malayalam,1.38,16000,Human Malayalam speech recording sample 8
+human_ml_009.wav,voice data/human/human_ml_009.wav,human,Real Human Recording,OpenSLR_ml_009,Female,Malayalam Native,Malayalam,0.9,16000,Human Malayalam speech recording sample 9
+human_ml_010.wav,voice data/human/human_ml_010.wav,human,Real Human Recording,OpenSLR_ml_010,Male,Malayalam Native,Malayalam,1.57,16000,Human Malayalam speech recording sample 10
+human_ml_011.wav,voice data/human/human_ml_011.wav,human,Real Human Recording,OpenSLR_ml_011,Female,Malayalam Native,Malayalam,6.0,16000,Human Malayalam speech recording sample 11
+human_ml_012.wav,voice data/human/human_ml_012.wav,human,Real Human Recording,OpenSLR_ml_012,Male,Malayalam Native,Malayalam,2.37,16000,Human Malayalam speech recording sample 12
+human_ml_013.wav,voice data/human/human_ml_013.wav,human,Real Human Recording,OpenSLR_ml_013,Female,Malayalam Native,Malayalam,2.02,16000,Human Malayalam speech recording sample 13
+human_ml_014.wav,voice data/human/human_ml_014.wav,human,Real Human Recording,OpenSLR_ml_014,Male,Malayalam Native,Malayalam,2.5,16000,Human Malayalam speech recording sample 14
+human_ml_015.wav,voice data/human/human_ml_015.wav,human,Real Human Recording,OpenSLR_ml_015,Female,Malayalam Native,Malayalam,3.49,16000,Human Malayalam speech recording sample 15
+human_ml_016.wav,voice data/human/human_ml_016.wav,human,Real Human Recording,OpenSLR_ml_016,Male,Malayalam Native,Malayalam,5.86,16000,Human Malayalam speech recording sample 16
+human_ml_017.wav,voice data/human/human_ml_017.wav,human,Real Human Recording,OpenSLR_ml_017,Female,Malayalam Native,Malayalam,1.66,16000,Human Malayalam speech recording sample 17
+human_ml_018.wav,voice data/human/human_ml_018.wav,human,Real Human Recording,OpenSLR_ml_018,Male,Malayalam Native,Malayalam,6.0,16000,Human Malayalam speech recording sample 18
+human_ml_019.wav,voice data/human/human_ml_019.wav,human,Real Human Recording,OpenSLR_ml_019,Female,Malayalam Native,Malayalam,6.0,16000,Human Malayalam speech recording sample 19
+human_ml_020.wav,voice data/human/human_ml_020.wav,human,Real Human Recording,OpenSLR_ml_020,Male,Malayalam Native,Malayalam,5.7,16000,Human Malayalam speech recording sample 20
+ai_en_001.wav,voice data/ai/ai_en_001.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,5.74,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_002.wav,voice data/ai/ai_en_002.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,5.52,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_003.wav,voice data/ai/ai_en_003.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,4.94,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_004.wav,voice data/ai/ai_en_004.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,6.7,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_005.wav,voice data/ai/ai_en_005.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,5.45,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_006.wav,voice data/ai/ai_en_006.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,5.52,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_007.wav,voice data/ai/ai_en_007.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,7.18,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_008.wav,voice data/ai/ai_en_008.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,5.78,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_009.wav,voice data/ai/ai_en_009.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,6.48,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_010.wav,voice data/ai/ai_en_010.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,4.87,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_en_011.wav,voice data/ai/ai_en_011.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,5.83,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_012.wav,voice data/ai/ai_en_012.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,5.95,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_013.wav,voice data/ai/ai_en_013.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,5.21,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_014.wav,voice data/ai/ai_en_014.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,7.22,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_015.wav,voice data/ai/ai_en_015.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,5.9,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_016.wav,voice data/ai/ai_en_016.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,4.94,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_017.wav,voice data/ai/ai_en_017.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,5.76,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_018.wav,voice data/ai/ai_en_018.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,5.59,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_019.wav,voice data/ai/ai_en_019.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,6.38,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_020.wav,voice data/ai/ai_en_020.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,5.23,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_en_021.wav,voice data/ai/ai_en_021.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,5.83,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_022.wav,voice data/ai/ai_en_022.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,6.36,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_023.wav,voice data/ai/ai_en_023.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,5.95,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_024.wav,voice data/ai/ai_en_024.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,6.94,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_025.wav,voice data/ai/ai_en_025.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,5.02,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_026.wav,voice data/ai/ai_en_026.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,4.99,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_027.wav,voice data/ai/ai_en_027.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,6.1,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_028.wav,voice data/ai/ai_en_028.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,6.05,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_029.wav,voice data/ai/ai_en_029.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,6.26,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_030.wav,voice data/ai/ai_en_030.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,5.69,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_en_031.wav,voice data/ai/ai_en_031.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,6.91,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_032.wav,voice data/ai/ai_en_032.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,5.76,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_033.wav,voice data/ai/ai_en_033.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,4.82,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_034.wav,voice data/ai/ai_en_034.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,6.26,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_035.wav,voice data/ai/ai_en_035.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,5.26,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_036.wav,voice data/ai/ai_en_036.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,5.4,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_037.wav,voice data/ai/ai_en_037.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,6.26,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_038.wav,voice data/ai/ai_en_038.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,6.46,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_039.wav,voice data/ai/ai_en_039.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,7.32,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_040.wav,voice data/ai/ai_en_040.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,5.28,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_en_041.wav,voice data/ai/ai_en_041.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,5.74,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_042.wav,voice data/ai/ai_en_042.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,5.52,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_043.wav,voice data/ai/ai_en_043.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,4.94,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_044.wav,voice data/ai/ai_en_044.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,6.7,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_045.wav,voice data/ai/ai_en_045.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,5.45,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_046.wav,voice data/ai/ai_en_046.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,5.52,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_047.wav,voice data/ai/ai_en_047.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,7.18,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_048.wav,voice data/ai/ai_en_048.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,5.78,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_049.wav,voice data/ai/ai_en_049.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,6.48,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_050.wav,voice data/ai/ai_en_050.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,4.87,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_en_051.wav,voice data/ai/ai_en_051.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,5.83,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_052.wav,voice data/ai/ai_en_052.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,5.95,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_053.wav,voice data/ai/ai_en_053.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,5.21,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_054.wav,voice data/ai/ai_en_054.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,7.22,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_055.wav,voice data/ai/ai_en_055.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,5.9,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_056.wav,voice data/ai/ai_en_056.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,4.94,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_057.wav,voice data/ai/ai_en_057.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,5.76,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_058.wav,voice data/ai/ai_en_058.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,5.59,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_059.wav,voice data/ai/ai_en_059.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,6.38,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_060.wav,voice data/ai/ai_en_060.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,5.23,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_en_061.wav,voice data/ai/ai_en_061.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,5.83,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_062.wav,voice data/ai/ai_en_062.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,6.36,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_063.wav,voice data/ai/ai_en_063.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,5.95,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_064.wav,voice data/ai/ai_en_064.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,6.94,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_065.wav,voice data/ai/ai_en_065.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,5.02,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_066.wav,voice data/ai/ai_en_066.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,4.99,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_067.wav,voice data/ai/ai_en_067.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,6.1,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_068.wav,voice data/ai/ai_en_068.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,6.05,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_069.wav,voice data/ai/ai_en_069.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,6.26,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_070.wav,voice data/ai/ai_en_070.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,5.69,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_en_071.wav,voice data/ai/ai_en_071.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,6.91,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_072.wav,voice data/ai/ai_en_072.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,5.76,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_073.wav,voice data/ai/ai_en_073.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,4.82,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_074.wav,voice data/ai/ai_en_074.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,6.26,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_075.wav,voice data/ai/ai_en_075.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,5.26,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_076.wav,voice data/ai/ai_en_076.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,5.4,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_077.wav,voice data/ai/ai_en_077.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,6.26,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_078.wav,voice data/ai/ai_en_078.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,6.46,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_079.wav,voice data/ai/ai_en_079.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,7.32,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_080.wav,voice data/ai/ai_en_080.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,5.28,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_en_081.wav,voice data/ai/ai_en_081.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,5.74,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_082.wav,voice data/ai/ai_en_082.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,5.52,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_083.wav,voice data/ai/ai_en_083.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,4.94,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_084.wav,voice data/ai/ai_en_084.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,6.7,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_085.wav,voice data/ai/ai_en_085.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,5.45,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_086.wav,voice data/ai/ai_en_086.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,5.52,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_087.wav,voice data/ai/ai_en_087.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,7.18,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_088.wav,voice data/ai/ai_en_088.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,5.78,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_089.wav,voice data/ai/ai_en_089.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,6.48,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_090.wav,voice data/ai/ai_en_090.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,4.87,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_en_091.wav,voice data/ai/ai_en_091.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,5.83,16000,Voice recognition systems analyze spectral features to identify acoustic characteristics.
+ai_en_092.wav,voice data/ai/ai_en_092.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,5.95,16000,Synthetic speech generation models produce natural pitch contours and rhythmic timing.
+ai_en_093.wav,voice data/ai/ai_en_093.wav,ai,Neural TTS,en-GB-RyanNeural,Male,English Synth,English,5.21,16000,Deep neural networks are trained on large speech corpora to understand human phonetics.
+ai_en_094.wav,voice data/ai/ai_en_094.wav,ai,Neural TTS,en-AU-NatashaNeural,Female,English Synth,English,7.22,16000,The distinction between synthetic voices and human speech involves micro temporal variations.
+ai_en_095.wav,voice data/ai/ai_en_095.wav,ai,Neural TTS,en-IN-NeerjaNeural,Male,English Synth,English,5.9,16000,Digital signal processing provides powerful tools for audio feature extraction.
+ai_en_096.wav,voice data/ai/ai_en_096.wav,ai,Neural TTS,en-US-AvaNeural,Female,English Synth,English,4.94,16000,Mel frequency cepstral coefficients capture essential spectral envelope properties.
+ai_en_097.wav,voice data/ai/ai_en_097.wav,ai,Neural TTS,en-US-AndrewNeural,Male,English Synth,English,5.76,16000,Random forest classifiers can effectively separate audio patterns based on pitch variance.
+ai_en_098.wav,voice data/ai/ai_en_098.wav,ai,Neural TTS,en-US-EmmaNeural,Female,English Synth,English,5.59,16000,Data preprocessing ensures uniform sample rates and amplitude normalization across files.
+ai_en_099.wav,voice data/ai/ai_en_099.wav,ai,Neural TTS,en-US-BrianNeural,Male,English Synth,English,6.38,16000,Supervised machine learning classifiers achieve high precision on audio spectrum features.
+ai_en_100.wav,voice data/ai/ai_en_100.wav,ai,Neural TTS,en-GB-SoniaNeural,Female,English Synth,English,5.23,16000,Artificial intelligence and machine learning are revolutionizing modern technology.
+ai_hi_001.wav,voice data/ai/ai_hi_001.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_002.wav,voice data/ai/ai_hi_002.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_003.wav,voice data/ai/ai_hi_003.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_004.wav,voice data/ai/ai_hi_004.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_005.wav,voice data/ai/ai_hi_005.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_006.wav,voice data/ai/ai_hi_006.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_007.wav,voice data/ai/ai_hi_007.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_008.wav,voice data/ai/ai_hi_008.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_009.wav,voice data/ai/ai_hi_009.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_010.wav,voice data/ai/ai_hi_010.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_hi_011.wav,voice data/ai/ai_hi_011.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_012.wav,voice data/ai/ai_hi_012.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_013.wav,voice data/ai/ai_hi_013.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_014.wav,voice data/ai/ai_hi_014.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_015.wav,voice data/ai/ai_hi_015.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_016.wav,voice data/ai/ai_hi_016.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_017.wav,voice data/ai/ai_hi_017.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_018.wav,voice data/ai/ai_hi_018.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_019.wav,voice data/ai/ai_hi_019.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_020.wav,voice data/ai/ai_hi_020.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_hi_021.wav,voice data/ai/ai_hi_021.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_022.wav,voice data/ai/ai_hi_022.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_023.wav,voice data/ai/ai_hi_023.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_024.wav,voice data/ai/ai_hi_024.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_025.wav,voice data/ai/ai_hi_025.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_026.wav,voice data/ai/ai_hi_026.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_027.wav,voice data/ai/ai_hi_027.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_028.wav,voice data/ai/ai_hi_028.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_029.wav,voice data/ai/ai_hi_029.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_030.wav,voice data/ai/ai_hi_030.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_hi_031.wav,voice data/ai/ai_hi_031.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_032.wav,voice data/ai/ai_hi_032.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_033.wav,voice data/ai/ai_hi_033.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_034.wav,voice data/ai/ai_hi_034.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_035.wav,voice data/ai/ai_hi_035.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_036.wav,voice data/ai/ai_hi_036.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_037.wav,voice data/ai/ai_hi_037.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_038.wav,voice data/ai/ai_hi_038.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_039.wav,voice data/ai/ai_hi_039.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_040.wav,voice data/ai/ai_hi_040.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_hi_041.wav,voice data/ai/ai_hi_041.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_042.wav,voice data/ai/ai_hi_042.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_043.wav,voice data/ai/ai_hi_043.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_044.wav,voice data/ai/ai_hi_044.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_045.wav,voice data/ai/ai_hi_045.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_046.wav,voice data/ai/ai_hi_046.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_047.wav,voice data/ai/ai_hi_047.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_048.wav,voice data/ai/ai_hi_048.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_049.wav,voice data/ai/ai_hi_049.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_050.wav,voice data/ai/ai_hi_050.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_hi_051.wav,voice data/ai/ai_hi_051.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_052.wav,voice data/ai/ai_hi_052.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_053.wav,voice data/ai/ai_hi_053.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_054.wav,voice data/ai/ai_hi_054.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_055.wav,voice data/ai/ai_hi_055.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_056.wav,voice data/ai/ai_hi_056.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_057.wav,voice data/ai/ai_hi_057.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_058.wav,voice data/ai/ai_hi_058.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_059.wav,voice data/ai/ai_hi_059.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_060.wav,voice data/ai/ai_hi_060.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_hi_061.wav,voice data/ai/ai_hi_061.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_062.wav,voice data/ai/ai_hi_062.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_063.wav,voice data/ai/ai_hi_063.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_064.wav,voice data/ai/ai_hi_064.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_065.wav,voice data/ai/ai_hi_065.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_066.wav,voice data/ai/ai_hi_066.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_067.wav,voice data/ai/ai_hi_067.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_068.wav,voice data/ai/ai_hi_068.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_069.wav,voice data/ai/ai_hi_069.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_070.wav,voice data/ai/ai_hi_070.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_hi_071.wav,voice data/ai/ai_hi_071.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_072.wav,voice data/ai/ai_hi_072.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_073.wav,voice data/ai/ai_hi_073.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_074.wav,voice data/ai/ai_hi_074.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_075.wav,voice data/ai/ai_hi_075.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_076.wav,voice data/ai/ai_hi_076.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_077.wav,voice data/ai/ai_hi_077.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_078.wav,voice data/ai/ai_hi_078.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_079.wav,voice data/ai/ai_hi_079.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_080.wav,voice data/ai/ai_hi_080.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_hi_081.wav,voice data/ai/ai_hi_081.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_082.wav,voice data/ai/ai_hi_082.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_083.wav,voice data/ai/ai_hi_083.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_084.wav,voice data/ai/ai_hi_084.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_085.wav,voice data/ai/ai_hi_085.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_086.wav,voice data/ai/ai_hi_086.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_087.wav,voice data/ai/ai_hi_087.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_088.wav,voice data/ai/ai_hi_088.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_089.wav,voice data/ai/ai_hi_089.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_090.wav,voice data/ai/ai_hi_090.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_hi_091.wav,voice data/ai/ai_hi_091.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,8.83,16000,आवाज पहचान प्रणाली अद्वितीय आवाज विशेषताओं की पहचान करने के लिए स्पेक्ट्रल सुविधाओं का विश्लेषण करती है।
+ai_hi_092.wav,voice data/ai/ai_hi_092.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.46,16000,सिंथेटिक भाषण उत्पादन मॉडल प्राकृतिक पिच समोच्च और लयबद्ध समय उत्पन्न करते हैं।
+ai_hi_093.wav,voice data/ai/ai_hi_093.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.8,16000,डीप लर्निंग मॉडल को प्रभावी प्रशिक्षण और मूल्यांकन के लिए संतुलित डेटासेट की आवश्यकता होती है।
+ai_hi_094.wav,voice data/ai/ai_hi_094.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.46,16000,मानव और कृत्रिम आवाज के बीच का अंतर शोध का एक सक्रिय क्षेत्र है।
+ai_hi_095.wav,voice data/ai/ai_hi_095.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.54,16000,डिजिटल सिग्नल प्रोसेसिंग ऑडियो सुविधा निष्कर्षण के लिए शक्तिशाली उपकरण प्रदान करता है।
+ai_hi_096.wav,voice data/ai/ai_hi_096.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.53,16000,मेल फ्रीक्वेंसी सेपस्ट्रल गुणांक स्पेक्ट्रल लिफाफे के आवश्यक गुणों को कैप्चर करते हैं।
+ai_hi_097.wav,voice data/ai/ai_hi_097.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.7,16000,मशीन लर्निंग क्लासिफायर ऑडियो स्पेक्ट्रम सुविधाओं पर उच्च सटीकता प्राप्त कर सकते हैं।
+ai_hi_098.wav,voice data/ai/ai_hi_098.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,6.72,16000,विविध भाषाओं और लहजों में ऑडियो नमूनों का मूल्यांकन मॉडल के प्रदर्शन को सुधारता है।
+ai_hi_099.wav,voice data/ai/ai_hi_099.wav,ai,Neural TTS,hi-IN-MadhurNeural,Male,Hindi Synth,Hindi,7.56,16000,क्रॉस-वैलिडेशन हमारे भाषण पहचान मॉडल के प्रदर्शन की निरंतरता सुनिश्चित करता है।
+ai_hi_100.wav,voice data/ai/ai_hi_100.wav,ai,Neural TTS,hi-IN-SwaraNeural,Female,Hindi Synth,Hindi,7.13,16000,कृत्रिम बुद्धिमत्ता और मशीन लर्निंग तकनीक आधुनिक युग में तेजी से विकसित हो रही हैं।
+ai_mr_001.wav,voice data/ai/ai_mr_001.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,5.83,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_002.wav,voice data/ai/ai_mr_002.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.96,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_003.wav,voice data/ai/ai_mr_003.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.86,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_004.wav,voice data/ai/ai_mr_004.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,7.82,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_005.wav,voice data/ai/ai_mr_005.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.14,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_006.wav,voice data/ai/ai_mr_006.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.31,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_007.wav,voice data/ai/ai_mr_007.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,7.8,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_008.wav,voice data/ai/ai_mr_008.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.67,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_009.wav,voice data/ai/ai_mr_009.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.67,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_010.wav,voice data/ai/ai_mr_010.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.62,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_011.wav,voice data/ai/ai_mr_011.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,7.08,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_012.wav,voice data/ai/ai_mr_012.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,7.58,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_013.wav,voice data/ai/ai_mr_013.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,5.69,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_014.wav,voice data/ai/ai_mr_014.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,7.2,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_015.wav,voice data/ai/ai_mr_015.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,7.42,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_016.wav,voice data/ai/ai_mr_016.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.86,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_017.wav,voice data/ai/ai_mr_017.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.46,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_018.wav,voice data/ai/ai_mr_018.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.14,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_019.wav,voice data/ai/ai_mr_019.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,8.06,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_020.wav,voice data/ai/ai_mr_020.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,7.2,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_021.wav,voice data/ai/ai_mr_021.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,5.83,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_022.wav,voice data/ai/ai_mr_022.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.96,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_023.wav,voice data/ai/ai_mr_023.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.86,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_024.wav,voice data/ai/ai_mr_024.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,7.82,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_025.wav,voice data/ai/ai_mr_025.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.14,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_026.wav,voice data/ai/ai_mr_026.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.31,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_027.wav,voice data/ai/ai_mr_027.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,7.8,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_028.wav,voice data/ai/ai_mr_028.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.67,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_029.wav,voice data/ai/ai_mr_029.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.67,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_030.wav,voice data/ai/ai_mr_030.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.62,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_031.wav,voice data/ai/ai_mr_031.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,7.08,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_032.wav,voice data/ai/ai_mr_032.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,7.58,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_033.wav,voice data/ai/ai_mr_033.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,5.69,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_034.wav,voice data/ai/ai_mr_034.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,7.2,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_035.wav,voice data/ai/ai_mr_035.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,7.42,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_036.wav,voice data/ai/ai_mr_036.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.86,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_037.wav,voice data/ai/ai_mr_037.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.46,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_038.wav,voice data/ai/ai_mr_038.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.14,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_039.wav,voice data/ai/ai_mr_039.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,8.06,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_040.wav,voice data/ai/ai_mr_040.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,7.2,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_041.wav,voice data/ai/ai_mr_041.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,5.83,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_042.wav,voice data/ai/ai_mr_042.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.96,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_043.wav,voice data/ai/ai_mr_043.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.86,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_044.wav,voice data/ai/ai_mr_044.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,7.82,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_045.wav,voice data/ai/ai_mr_045.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.14,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_046.wav,voice data/ai/ai_mr_046.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.31,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_mr_047.wav,voice data/ai/ai_mr_047.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,7.8,16000,विविध भाषांमधील ऑडिओ नमुने मॉडेलची अचूकता वाढवण्यासाठी अत्यंत उपयुक्त ठरतात.
+ai_mr_048.wav,voice data/ai/ai_mr_048.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.67,16000,कृत्रिम बुद्धिमत्ता आणि मशीन लर्निंग तंत्रज्ञान आधुनिक जगात वेगाने विकसित होत आहे.
+ai_mr_049.wav,voice data/ai/ai_mr_049.wav,ai,Neural TTS,mr-IN-ManoharNeural,Male,Marathi Synth,Marathi,6.67,16000,आवाज ओळख प्रणाली ऑडिओ वैशिष्ट्यांचे विश्लेषण करून अचूक निकाल देते.
+ai_mr_050.wav,voice data/ai/ai_mr_050.wav,ai,Neural TTS,mr-IN-AarohiNeural,Female,Marathi Synth,Marathi,6.62,16000,डिजिटल सिग्नल प्रोसेसिंग तंत्रज्ञानाचा वापर करून डेटाचे विश्लेषण केले जाते.
+ai_gu_001.wav,voice data/ai/ai_gu_001.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,6.84,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_002.wav,voice data/ai/ai_gu_002.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,8.23,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_gu_003.wav,voice data/ai/ai_gu_003.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,6.65,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_004.wav,voice data/ai/ai_gu_004.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,8.5,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_gu_005.wav,voice data/ai/ai_gu_005.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,7.18,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_006.wav,voice data/ai/ai_gu_006.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,7.46,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_gu_007.wav,voice data/ai/ai_gu_007.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,7.56,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_008.wav,voice data/ai/ai_gu_008.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,7.25,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_gu_009.wav,voice data/ai/ai_gu_009.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,7.8,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_010.wav,voice data/ai/ai_gu_010.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,7.82,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_gu_011.wav,voice data/ai/ai_gu_011.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,6.84,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_012.wav,voice data/ai/ai_gu_012.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,8.23,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_gu_013.wav,voice data/ai/ai_gu_013.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,6.65,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_014.wav,voice data/ai/ai_gu_014.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,8.5,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_gu_015.wav,voice data/ai/ai_gu_015.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,7.18,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_016.wav,voice data/ai/ai_gu_016.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,7.46,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_gu_017.wav,voice data/ai/ai_gu_017.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,7.56,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_018.wav,voice data/ai/ai_gu_018.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,7.25,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_gu_019.wav,voice data/ai/ai_gu_019.wav,ai,Neural TTS,gu-IN-NiranjanNeural,Male,Gujarati Synth,Gujarati,7.8,16000,અવાજ ઓળખ સિસ્ટમ સ્પેક્ટ્રલ લાક્ષણિકતાઓનું વિશ્લેષણ કરીને ચોક્કસ પરિણામ આપે છે.
+ai_gu_020.wav,voice data/ai/ai_gu_020.wav,ai,Neural TTS,gu-IN-DhwaniNeural,Female,Gujarati Synth,Gujarati,7.82,16000,કૃત્રિમ બુદ્ધિ અને મશીન લર્નિંગ ટેકનોલોજી આધુનિક વિશ્વમાં ઝડપથી વધી રહી છે.
+ai_bn_001.wav,voice data/ai/ai_bn_001.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,5.69,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_002.wav,voice data/ai/ai_bn_002.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,6.72,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_bn_003.wav,voice data/ai/ai_bn_003.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,5.52,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_004.wav,voice data/ai/ai_bn_004.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,6.96,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_bn_005.wav,voice data/ai/ai_bn_005.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,5.95,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_006.wav,voice data/ai/ai_bn_006.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,6.1,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_bn_007.wav,voice data/ai/ai_bn_007.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,6.26,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_008.wav,voice data/ai/ai_bn_008.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,5.93,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_bn_009.wav,voice data/ai/ai_bn_009.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,6.48,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_010.wav,voice data/ai/ai_bn_010.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,6.41,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_bn_011.wav,voice data/ai/ai_bn_011.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,5.69,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_012.wav,voice data/ai/ai_bn_012.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,6.72,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_bn_013.wav,voice data/ai/ai_bn_013.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,5.52,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_014.wav,voice data/ai/ai_bn_014.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,6.96,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_bn_015.wav,voice data/ai/ai_bn_015.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,5.95,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_016.wav,voice data/ai/ai_bn_016.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,6.1,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_bn_017.wav,voice data/ai/ai_bn_017.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,6.26,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_018.wav,voice data/ai/ai_bn_018.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,5.93,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_bn_019.wav,voice data/ai/ai_bn_019.wav,ai,Neural TTS,bn-IN-BashkarNeural,Male,Bengali Synth,Bengali,6.48,16000,ভয়েস রিকগনিশন সিস্টেম শব্দ বৈশিষ্ট্য বিশ্লেষণ করে সঠিক ফলাফল প্রদান করে।
+ai_bn_020.wav,voice data/ai/ai_bn_020.wav,ai,Neural TTS,bn-IN-TanishaaNeural,Female,Bengali Synth,Bengali,6.41,16000,কৃত্রিম বুদ্ধিমত্তা এবং মেশিন লার্নিং প্রযুক্তি আধুনিক বিশ্বে দ্রুত বিকশিত হচ্ছে।
+ai_te_001.wav,voice data/ai/ai_te_001.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,5.45,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_002.wav,voice data/ai/ai_te_002.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,6.98,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_te_003.wav,voice data/ai/ai_te_003.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,5.3,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_004.wav,voice data/ai/ai_te_004.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,7.2,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_te_005.wav,voice data/ai/ai_te_005.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,5.74,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_006.wav,voice data/ai/ai_te_006.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,6.31,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_te_007.wav,voice data/ai/ai_te_007.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,6.02,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_008.wav,voice data/ai/ai_te_008.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,6.14,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_te_009.wav,voice data/ai/ai_te_009.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,6.24,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_010.wav,voice data/ai/ai_te_010.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,6.62,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_te_011.wav,voice data/ai/ai_te_011.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,5.45,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_012.wav,voice data/ai/ai_te_012.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,6.98,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_te_013.wav,voice data/ai/ai_te_013.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,5.3,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_014.wav,voice data/ai/ai_te_014.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,7.2,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_te_015.wav,voice data/ai/ai_te_015.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,5.74,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_016.wav,voice data/ai/ai_te_016.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,6.31,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_te_017.wav,voice data/ai/ai_te_017.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,6.02,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_018.wav,voice data/ai/ai_te_018.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,6.14,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_te_019.wav,voice data/ai/ai_te_019.wav,ai,Neural TTS,te-IN-MohanNeural,Male,Telugu Synth,Telugu,6.24,16000,వాయిస్ రికగ్నిషన్ సిస్టమ్ శబ్ద లక్షణాలను విశ్లేషించి ఖచ్చితమైన ఫలితాలను ఇస్తుంది.
+ai_te_020.wav,voice data/ai/ai_te_020.wav,ai,Neural TTS,te-IN-ShrutiNeural,Female,Telugu Synth,Telugu,6.62,16000,కృత్రిమ మేధస్సు మరియు మెషిన్ లెర్నింగ్ సాంకేతికత ఆధునిక ప్రపంచంలో వేగంగా అభివృద్ధి చెందుతోంది.
+ai_ta_001.wav,voice data/ai/ai_ta_001.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,5.54,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_002.wav,voice data/ai/ai_ta_002.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.76,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ta_003.wav,voice data/ai/ai_ta_003.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,5.4,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_004.wav,voice data/ai/ai_ta_004.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.95,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ta_005.wav,voice data/ai/ai_ta_005.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,5.83,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_006.wav,voice data/ai/ai_ta_006.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.21,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ta_007.wav,voice data/ai/ai_ta_007.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,6.14,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_008.wav,voice data/ai/ai_ta_008.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.06,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ta_009.wav,voice data/ai/ai_ta_009.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,6.34,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_010.wav,voice data/ai/ai_ta_010.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.47,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ta_011.wav,voice data/ai/ai_ta_011.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,5.54,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_012.wav,voice data/ai/ai_ta_012.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.76,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ta_013.wav,voice data/ai/ai_ta_013.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,5.4,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_014.wav,voice data/ai/ai_ta_014.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.95,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ta_015.wav,voice data/ai/ai_ta_015.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,5.83,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_016.wav,voice data/ai/ai_ta_016.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.21,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ta_017.wav,voice data/ai/ai_ta_017.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,6.14,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_018.wav,voice data/ai/ai_ta_018.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.06,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ta_019.wav,voice data/ai/ai_ta_019.wav,ai,Neural TTS,ta-IN-ValluvarNeural,Male,Tamil Synth,Tamil,6.34,16000,குரல் அங்கீகார அமைப்பு ஒலி பண்புகளை பகுப்பாய்வு செய்து துல்லியமான முடிவுகளை தருகிறது.
+ai_ta_020.wav,voice data/ai/ai_ta_020.wav,ai,Neural TTS,ta-IN-PallaviNeural,Female,Tamil Synth,Tamil,5.47,16000,செயற்கை நுண்ணறிவு மற்றும் இயந்திர கற்றல் தொழில் நுட்பம் வேகமாக வளர்ந்து வருகிறது.
+ai_ur_001.wav,voice data/ai/ai_ur_001.wav,ai,Neural TTS,ur-IN-SalmanNeural,Male,Urdu Synth,Urdu,6.19,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_002.wav,voice data/ai/ai_ur_002.wav,ai,Neural TTS,ur-PK-UzmaNeural,Female,Urdu Synth,Urdu,5.88,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_ur_003.wav,voice data/ai/ai_ur_003.wav,ai,Neural TTS,ur-IN-GulNeural,Male,Urdu Synth,Urdu,6.07,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_004.wav,voice data/ai/ai_ur_004.wav,ai,Neural TTS,ur-IN-SalmanNeural,Female,Urdu Synth,Urdu,6.79,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_ur_005.wav,voice data/ai/ai_ur_005.wav,ai,Neural TTS,ur-PK-UzmaNeural,Male,Urdu Synth,Urdu,5.9,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_006.wav,voice data/ai/ai_ur_006.wav,ai,Neural TTS,ur-IN-GulNeural,Female,Urdu Synth,Urdu,5.86,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_ur_007.wav,voice data/ai/ai_ur_007.wav,ai,Neural TTS,ur-IN-SalmanNeural,Male,Urdu Synth,Urdu,6.84,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_008.wav,voice data/ai/ai_ur_008.wav,ai,Neural TTS,ur-PK-UzmaNeural,Female,Urdu Synth,Urdu,5.18,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_ur_009.wav,voice data/ai/ai_ur_009.wav,ai,Neural TTS,ur-IN-GulNeural,Male,Urdu Synth,Urdu,7.13,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_010.wav,voice data/ai/ai_ur_010.wav,ai,Neural TTS,ur-IN-SalmanNeural,Female,Urdu Synth,Urdu,6.26,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_ur_011.wav,voice data/ai/ai_ur_011.wav,ai,Neural TTS,ur-PK-UzmaNeural,Male,Urdu Synth,Urdu,5.62,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_012.wav,voice data/ai/ai_ur_012.wav,ai,Neural TTS,ur-IN-GulNeural,Female,Urdu Synth,Urdu,6.48,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_ur_013.wav,voice data/ai/ai_ur_013.wav,ai,Neural TTS,ur-IN-SalmanNeural,Male,Urdu Synth,Urdu,6.02,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_014.wav,voice data/ai/ai_ur_014.wav,ai,Neural TTS,ur-PK-UzmaNeural,Female,Urdu Synth,Urdu,6.07,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_ur_015.wav,voice data/ai/ai_ur_015.wav,ai,Neural TTS,ur-IN-GulNeural,Male,Urdu Synth,Urdu,6.55,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_016.wav,voice data/ai/ai_ur_016.wav,ai,Neural TTS,ur-IN-SalmanNeural,Female,Urdu Synth,Urdu,5.95,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_ur_017.wav,voice data/ai/ai_ur_017.wav,ai,Neural TTS,ur-PK-UzmaNeural,Male,Urdu Synth,Urdu,6.22,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_018.wav,voice data/ai/ai_ur_018.wav,ai,Neural TTS,ur-IN-GulNeural,Female,Urdu Synth,Urdu,5.69,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_ur_019.wav,voice data/ai/ai_ur_019.wav,ai,Neural TTS,ur-IN-SalmanNeural,Male,Urdu Synth,Urdu,7.06,16000,آواز کی شناخت کا نظام آواز کی خصوصیات کا تجزیہ کر کے درست نتائج دیتا ہے۔
+ai_ur_020.wav,voice data/ai/ai_ur_020.wav,ai,Neural TTS,ur-PK-UzmaNeural,Female,Urdu Synth,Urdu,5.59,16000,مصنوعی ذہانت اور مشین لرننگ کی ٹیکنالوجی جدید دنیا میں تیزی سے پھیل رہی ہے۔
+ai_kn_001.wav,voice data/ai/ai_kn_001.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,5.76,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_002.wav,voice data/ai/ai_kn_002.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,7.13,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_kn_003.wav,voice data/ai/ai_kn_003.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,5.59,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_004.wav,voice data/ai/ai_kn_004.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,7.37,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_kn_005.wav,voice data/ai/ai_kn_005.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,6.05,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_006.wav,voice data/ai/ai_kn_006.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,6.46,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_kn_007.wav,voice data/ai/ai_kn_007.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,6.36,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_008.wav,voice data/ai/ai_kn_008.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,6.26,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_kn_009.wav,voice data/ai/ai_kn_009.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,6.58,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_010.wav,voice data/ai/ai_kn_010.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,6.77,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_kn_011.wav,voice data/ai/ai_kn_011.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,5.76,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_012.wav,voice data/ai/ai_kn_012.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,7.13,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_kn_013.wav,voice data/ai/ai_kn_013.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,5.59,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_014.wav,voice data/ai/ai_kn_014.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,7.37,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_kn_015.wav,voice data/ai/ai_kn_015.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,6.05,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_016.wav,voice data/ai/ai_kn_016.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,6.46,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_kn_017.wav,voice data/ai/ai_kn_017.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,6.36,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_018.wav,voice data/ai/ai_kn_018.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,6.26,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_kn_019.wav,voice data/ai/ai_kn_019.wav,ai,Neural TTS,kn-IN-GaganNeural,Male,Kannada Synth,Kannada,6.58,16000,ಧ್ವನಿ ಗುರುತಿಸುವಿಕೆ ವ್ಯವಸ್ಥೆಯು ಧ್ವನಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ ಫಲಿತಾಂಶ ನೀಡುತ್ತದೆ.
+ai_kn_020.wav,voice data/ai/ai_kn_020.wav,ai,Neural TTS,kn-IN-SapnaNeural,Female,Kannada Synth,Kannada,6.77,16000,ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ ಮತ್ತು ಮಷಿನ್ ಲರ್ನಿಂಗ್ ತಂತ್ರಜ್ಞಾನವು ಆಧುನಿಕ ಜಗತ್ತಿನಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿದೆ.
+ai_pa_001.wav,voice data/ai/ai_pa_001.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_002.wav,voice data/ai/ai_pa_002.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.5,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_pa_003.wav,voice data/ai/ai_pa_003.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_004.wav,voice data/ai/ai_pa_004.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.29,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_pa_005.wav,voice data/ai/ai_pa_005.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_006.wav,voice data/ai/ai_pa_006.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.41,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_pa_007.wav,voice data/ai/ai_pa_007.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_008.wav,voice data/ai/ai_pa_008.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.24,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_pa_009.wav,voice data/ai/ai_pa_009.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_010.wav,voice data/ai/ai_pa_010.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.26,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_pa_011.wav,voice data/ai/ai_pa_011.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_012.wav,voice data/ai/ai_pa_012.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.26,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_pa_013.wav,voice data/ai/ai_pa_013.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_014.wav,voice data/ai/ai_pa_014.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.29,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_pa_015.wav,voice data/ai/ai_pa_015.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_016.wav,voice data/ai/ai_pa_016.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.24,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_pa_017.wav,voice data/ai/ai_pa_017.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_018.wav,voice data/ai/ai_pa_018.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.24,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_pa_019.wav,voice data/ai/ai_pa_019.wav,ai,Neural TTS,en-US-AndrewMultilingualNeural,Male,Punjabi Synth,Punjabi,7.13,16000,ਆਵਾਜ਼ ਪਛਾਣ ਪ੍ਰਣਾਲੀ ਸਪੈਕਟ੍ਰਲ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਕੇ ਸਹੀ ਨਤੀਜੇ ਦਿੰਦੀ ਹੈ।
+ai_pa_020.wav,voice data/ai/ai_pa_020.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Punjabi Synth,Punjabi,0.26,16000,"ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ, ਆਰਟੀਫੀਸ਼ੀਅਲ ਇੰਟੈਲੀਜੈਂਸ ਅਤੇ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਤਕਨਾਲੋਜੀ ਤੇਜ਼ੀ ਨਾਲ ਵਧ ਰਹੀ ਹੈ।"
+ai_or_001.wav,voice data/ai/ai_or_001.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_002.wav,voice data/ai/ai_or_002.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.5,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_or_003.wav,voice data/ai/ai_or_003.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_004.wav,voice data/ai/ai_or_004.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.29,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_or_005.wav,voice data/ai/ai_or_005.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_006.wav,voice data/ai/ai_or_006.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.24,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_or_007.wav,voice data/ai/ai_or_007.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_008.wav,voice data/ai/ai_or_008.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.24,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_or_009.wav,voice data/ai/ai_or_009.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_010.wav,voice data/ai/ai_or_010.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.43,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_or_011.wav,voice data/ai/ai_or_011.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_012.wav,voice data/ai/ai_or_012.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.26,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_or_013.wav,voice data/ai/ai_or_013.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_014.wav,voice data/ai/ai_or_014.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.29,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_or_015.wav,voice data/ai/ai_or_015.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_016.wav,voice data/ai/ai_or_016.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.46,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_or_017.wav,voice data/ai/ai_or_017.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_018.wav,voice data/ai/ai_or_018.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.24,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_or_019.wav,voice data/ai/ai_or_019.wav,ai,Neural TTS,en-US-BrianMultilingualNeural,Male,Odia Synth,Odia,6.98,16000,ଶବ୍ଦ ଚିହ୍ନଟ ବ୍ୟବସ୍ଥା ସ୍ୱରର ବିଶେଷତ୍ୱ ବିଶ୍ଳେଷଣ କରି ସଠିକ୍ ଫଳାଫଳ ପ୍ରଦାନ କରେ।
+ai_or_020.wav,voice data/ai/ai_or_020.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Odia Synth,Odia,0.26,16000,"ନମସ୍କାର, କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ଏବଂ ମେସିନ୍ ଲର୍ନିଂ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ଦ୍ରୁତ ଗତିରେ ବୃଦ୍ଧି ପାଉଛି।"
+ai_as_001.wav,voice data/ai/ai_as_001.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,4.85,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_002.wav,voice data/ai/ai_as_002.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,5.42,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_as_003.wav,voice data/ai/ai_as_003.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,4.7,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_004.wav,voice data/ai/ai_as_004.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,5.64,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_as_005.wav,voice data/ai/ai_as_005.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,5.09,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_006.wav,voice data/ai/ai_as_006.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,4.92,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_as_007.wav,voice data/ai/ai_as_007.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,5.35,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_008.wav,voice data/ai/ai_as_008.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,4.7,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_as_009.wav,voice data/ai/ai_as_009.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,5.52,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_010.wav,voice data/ai/ai_as_010.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,5.28,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_as_011.wav,voice data/ai/ai_as_011.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,4.85,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_012.wav,voice data/ai/ai_as_012.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,5.45,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_as_013.wav,voice data/ai/ai_as_013.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,4.7,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_014.wav,voice data/ai/ai_as_014.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,5.64,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_as_015.wav,voice data/ai/ai_as_015.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,5.09,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_016.wav,voice data/ai/ai_as_016.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,4.87,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_as_017.wav,voice data/ai/ai_as_017.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,5.35,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_018.wav,voice data/ai/ai_as_018.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,4.8,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_as_019.wav,voice data/ai/ai_as_019.wav,ai,Neural TTS,en-US-EmmaMultilingualNeural,Male,Assamese Synth,Assamese,5.52,16000,কণ্ঠস্বৰ চিনাক্তকৰণ ব্যৱস্থাই শব্দৰ বৈশিষ্ট্য বিশ্লেষণ কৰি সঠিক ফলাফল প্ৰদান কৰে।
+ai_as_020.wav,voice data/ai/ai_as_020.wav,ai,Neural TTS,en-US-AvaMultilingualNeural,Female,Assamese Synth,Assamese,5.18,16000,"নমস্কাৰ, কৃত্ৰিম বুদ্ধিমত্তা আৰু মেচিন লাৰ্নিং প্ৰযুক্তি আধুনিক জগতত দ্ৰুতগতিত বৃদ্ধি পাইছে।"
+ai_ml_001.wav,voice data/ai/ai_ml_001.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,5.35,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_002.wav,voice data/ai/ai_ml_002.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,5.35,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
+ai_ml_003.wav,voice data/ai/ai_ml_003.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,5.21,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_004.wav,voice data/ai/ai_ml_004.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,5.54,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
+ai_ml_005.wav,voice data/ai/ai_ml_005.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,5.62,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_006.wav,voice data/ai/ai_ml_006.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,4.85,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
+ai_ml_007.wav,voice data/ai/ai_ml_007.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,5.93,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_008.wav,voice data/ai/ai_ml_008.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,4.73,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
+ai_ml_009.wav,voice data/ai/ai_ml_009.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,6.1,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_010.wav,voice data/ai/ai_ml_010.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,5.09,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
+ai_ml_011.wav,voice data/ai/ai_ml_011.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,5.35,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_012.wav,voice data/ai/ai_ml_012.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,5.35,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
+ai_ml_013.wav,voice data/ai/ai_ml_013.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,5.21,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_014.wav,voice data/ai/ai_ml_014.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,5.54,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
+ai_ml_015.wav,voice data/ai/ai_ml_015.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,5.62,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_016.wav,voice data/ai/ai_ml_016.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,4.85,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
+ai_ml_017.wav,voice data/ai/ai_ml_017.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,5.93,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_018.wav,voice data/ai/ai_ml_018.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,4.73,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
+ai_ml_019.wav,voice data/ai/ai_ml_019.wav,ai,Neural TTS,ml-IN-MidhunNeural,Male,Malayalam Synth,Malayalam,6.1,16000,ശബ്ദ തിരിച്ചറിയൽ സംവിധാനം ശബ്ദ സവിശേഷതകൾ വിശകലനം ചെയ്ത് കൃത്യമായ ഫലം നൽകുന്നു.
+ai_ml_020.wav,voice data/ai/ai_ml_020.wav,ai,Neural TTS,ml-IN-SobhanaNeural,Female,Malayalam Synth,Malayalam,5.09,16000,കൃത്രിമബുദ്ധിയും മെഷീൻ ലേണിംഗും ആധുനിക ലോകത്ത് വേഗത്തിൽ വളരുകയാണ്.
