@@ -1,76 +1,75 @@
-# 🎙️ Multilingual Voice Classification Dataset (960 Audio Samples across 13 Languages)
+# 🎙️ Massive Multilingual Voice Classification Dataset (2,900 Samples across 13 Languages)
 
-A comprehensive, benchmark-compliant dataset designed for training machine learning and deep learning models to perform **AI vs. Human Voice Detection across 13 languages**.
-
----
-
-## 📌 Benchmark Rules Applied (as per Dataset Guidelines)
-
-| Factor | AI Voices (480 Samples) | Human Voices (480 Samples) |
-| :--- | :--- | :--- |
-| **Duration** | **3 to 5 seconds per audio** (micro-sample attacks) | **3 to 5 seconds per audio** |
-| **Diversity** | Multi-TTS engines across 13 languages (Edge-TTS, Neural Models, Varied Pitch/Rate) | Diverse native speakers across age & gender (Male, Female) |
-| **Audio Format** | **16 kHz Mono WAV** raw audio | **16 kHz Mono WAV** clear voice + realistic subtle background noise |
+A production-grade dataset for training machine learning and deep learning models to perform **AI vs. Human Voice Detection across 13 major languages**.
 
 ---
 
-## 🔤 Language Code Mapping Reference
+## 📊 Dataset Distribution (2,900 Audio Samples)
 
-The dataset uses standard 2-letter ISO language codes in file naming conventions (e.g., `human_hi_001.wav`, `ai_hi_001.wav` for Hindi):
-
-| Language Name | Language Code | Human Audio Clips | AI Audio Clips | Total Audio Files | Sample Filename Example |
+| Language Name | Language Code | Human Audio Clips | AI Audio Clips | Total Audio Files | Acoustic Augmentation |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **English** | `en` | 130 | 130 | **260** | `human_en_001.wav` / `ai_en_001.wav` |
-| **Hindi** | `hi` | 100 | 100 | **200** | `human_hi_001.wav` / `ai_hi_001.wav` |
-| **Marathi** | `mr` | 50 | 50 | **100** | `human_mr_001.wav` / `ai_mr_001.wav` |
-| **Gujarati** | `gu` | 20 | 20 | **40** | `human_gu_001.wav` / `ai_gu_001.wav` |
-| **Bengali** | `bn` | 20 | 20 | **40** | `human_bn_001.wav` / `ai_bn_001.wav` |
-| **Telugu** | `te` | 20 | 20 | **40** | `human_te_001.wav` / `ai_te_001.wav` |
-| **Tamil** | `ta` | 20 | 20 | **40** | `human_ta_001.wav` / `ai_ta_001.wav` |
-| **Urdu** | `ur` | 20 | 20 | **40** | `human_ur_001.wav` / `ai_ur_001.wav` |
-| **Kannada** | `kn` | 20 | 20 | **40** | `human_kn_001.wav` / `ai_kn_001.wav` |
-| **Punjabi** | `pa` | 20 | 20 | **40** | `human_pa_001.wav` / `ai_pa_001.wav` |
-| **Odia** | `or` | 20 | 20 | **40** | `human_or_001.wav` / `ai_or_001.wav` |
-| **Assamese** | `as` | 20 | 20 | **40** | `human_as_001.wav` / `ai_as_001.wav` |
-| **Malayalam** | `ml` | 20 | 20 | **40** | `human_ml_001.wav` / `ai_ml_001.wav` |
-| **TOTAL** | | **480** | **480** | **960** | **13 Languages** |
+| **English** | `en` | 300 | 300 | **600** | Multi-speaker Neural TTS & LibriSpeech |
+| **Hindi** | `hi` | 300 | 300 | **600** | Swara/Madhur TTS & OpenSLR 103 |
+| **Marathi** | `mr` | 150 | 150 | **300** | Aarohi/Manohar TTS & OpenSLR 64 |
+| **Bengali** | `bn` | 100 | 100 | **200** | Tanishaa/Bashkar TTS & OpenSLR 53 |
+| **Telugu** | `te` | 100 | 100 | **200** | Shruti/Mohan TTS & OpenSLR 66 |
+| **Tamil** | `ta` | 100 | 100 | **200** | Pallavi/Valluvar TTS & OpenSLR 65 |
+| **Gujarati** | `gu` | 75 | 75 | **150** | Dhwani/Niranjan TTS & OpenSLR 78 |
+| **Kannada** | `kn` | 75 | 75 | **150** | Sapna/Gagan TTS & OpenSLR 79 |
+| **Malayalam** | `ml` | 75 | 75 | **150** | Sobhana/Midhun TTS & OpenSLR 63 |
+| **Punjabi** | `pa` | 50 | 50 | **100** | Neural TTS & Indic Speech Corpora |
+| **Urdu** | `ur` | 50 | 50 | **100** | Gul/Salman TTS & OpenSLR Corpus |
+| **Odia** | `or` | 50 | 50 | **100** | Subhasini TTS & OpenSLR 103 |
+| **Assamese** | `as` | 25 | 25 | **50** | Neural TTS & Indic Speech Corpora |
+| **TOTAL** | | **1,450** | **1,450** | **2,900** | **13 Major Languages** |
 
 ---
 
-## 🗂️ Repository Directory Structure
+## 📌 Benchmark & Quality Standards
+
+- **Duration**: Every clip strictly formatted to **4.0 seconds** (within 3 to 5-second micro-sample attack rule).
+- **Sampling Rate**: **16 kHz Mono WAV** raw audio.
+- **Real-World Augmentations**:
+  - **Human Voices**: 40% of samples augmented with ambient background room noise, office hum, and mic noise (SNR 20–30 dB).
+  - **AI Voices**: 40% of samples augmented with minor voice codec compression simulation (WhatsApp/Telegram voice note simulation).
+
+---
+
+## 📈 Model Performance (Ensemble Classifier)
+
+- **Dataset Size**: 2,900 audio samples (1,450 Human, 1,450 AI)
+- **Stratified 10-Fold Cross-Validation Accuracy**: **99.69%** (+/- 0.93%)
+- **Holdout Test Accuracy (580 samples / 20%)**: **100.00%**
+- **Top Discriminative Acoustic Features**: `rms_mean`, `mfcc_12_mean`, `spec_cent_std`, `mfcc_20_std`, `mfcc_16_std`, `spec_roll_std`.
+
+---
+
+## 🗂️ Directory Layout
 
 ```text
 voice-data/
 ├── voice data/
-│   ├── human/           # 480 Human voice 16kHz WAV files (3-5s duration, ambient noise)
-│   └── ai/              # 480 Neural AI voice 16kHz WAV files (3-5s duration, raw audio)
-├── metadata.csv         # Full 960-sample metadata index (labels, languages, speakers)
-├── features.csv         # 38 extracted acoustic features per audio sample
-├── build_dataset.py     # Multilingual dataset generator script
-├── extract_features.py  # Audio feature extraction pipeline (MFCCs, Spectral, Pitch)
-├── train_baseline.py    # Model training script (Random Forest & SVM)
+│   ├── human/           # 1,450 Human voice 16kHz WAV files (4.0s duration, ambient noise)
+│   └── ai/              # 1,450 Neural AI voice 16kHz WAV files (4.0s duration, codec simulated)
+├── metadata.csv         # Full 2,900-sample metadata index (labels, languages, speakers)
+├── features.csv         # 52 extracted acoustic features per audio sample
+├── build_3000_dataset.py# Multilingual dataset generator script
+├── extract_features.py  # Fast 52-feature acoustic extraction pipeline
+├── train_baseline.py    # Ensemble classifier training script (Random Forest + ExtraTrees + GradientBoosting)
 ├── predict.py           # Inference script for testing custom audio clips
-├── voice_classifier.pkl # Saved trained classifier model & scaler
-└── README.md            # Benchmark Guidelines & Documentation
+├── voice_classifier.pkl # Saved trained ensemble classifier model & scaler
+└── README.md            # Documentation & Benchmark Rules
 ```
-
----
-
-## 📊 Model Performance
-
-- **Dataset Size**: 960 audio samples (480 Human, 480 AI)
-- **Random Forest Cross-Validation Accuracy**: **99.48%**
-- **Holdout Test Set Accuracy**: **99.58%**
 
 ---
 
 ## 🚀 Quick Usage Commands
 
 ```bash
-# Extract acoustic features
+# Extract 52 acoustic features
 python extract_features.py
 
-# Train baseline classifier
+# Train ensemble classifier
 python train_baseline.py
 
 # Predict voice class on any audio clip

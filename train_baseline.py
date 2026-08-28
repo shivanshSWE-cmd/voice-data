@@ -1,98 +1,86 @@
 import os
-import joblib
 import pandas as pd
 import numpy as np
+import pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
 from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, GradientBoostingClassifier, VotingClassifier
+from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-FEATURES_PATH = os.path.join(BASE_DIR, "features.csv")
-MODEL_PATH = os.path.join(BASE_DIR, "voice_classifier.pkl")
-PLOT_PATH = os.path.join(BASE_DIR, "training_results.png")
+feat_path = os.path.join(BASE_DIR, "features.csv")
 
-def main():
-    if not os.path.exists(FEATURES_PATH):
-        print(f"Error: {FEATURES_PATH} not found. Run extract_features.py first.")
-        return
-        
-    df = pd.read_csv(FEATURES_PATH)
-    print(f"Loaded feature matrix: {df.shape[0]} rows, {df.shape[1]} columns")
-    
-    X = df.drop(columns=['filename', 'label'])
-    y = df['label']
-    
-    # 5-fold Cross-Validation evaluation
-    skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
-    rf_scores = cross_val_score(RandomForestClassifier(n_estimators=100, random_state=42), X, y, cv=skf, scoring='accuracy')
-    svm_scores = cross_val_score(SVC(kernel='rbf', probability=True, random_state=42), X, y, cv=skf, scoring='accuracy')
-    
-    print("\n=== Stratified 5-Fold Cross-Validation Accuracy ===")
-    print(f"Random Forest CV Accuracy: {np.mean(rf_scores)*100:.2f}% (+/- {np.std(rf_scores)*100:.2f}%)")
-    print(f"SVM CV Accuracy:           {np.mean(svm_scores)*100:.2f}% (+/- {np.std(svm_scores)*100:.2f}%)")
-    
-    # Train / Test Split
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42, stratify=y)
-    
-    scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train)
-    X_test_scaled = scaler.transform(X_test)
-    
-    # Train final Random Forest model
-    clf = RandomForestClassifier(n_estimators=100, random_state=42)
-    clf.fit(X_train_scaled, y_train)
-    
-    y_pred = clf.predict(X_test_scaled)
-    acc = accuracy_score(y_test, y_pred)
-    
-    print("\n=== Test Set Performance (25% Holdout) ===")
-    print(f"Test Accuracy: {acc*100:.2f}%\n")
-    print("Classification Report:")
-    print(classification_report(y_test, y_pred))
-    
-    # Feature Importance Analysis
-    importances = clf.feature_importances_
-    indices = np.argsort(importances)[::-1]
-    top_features = X.columns[indices[:10]]
-    top_importances = importances[indices[:10]]
-    
-    print("Top 10 Most Important Features:")
-    for f_name, imp in zip(top_features, top_importances):
-        print(f"  - {f_name:20s}: {imp:.4f}")
-        
-    # Save Model & Scaler
-    model_payload = {
-        'model': clf,
-        'scaler': scaler,
-        'feature_names': list(X.columns)
-    }
-    joblib.dump(model_payload, MODEL_PATH)
-    print(f"\nTrained model and scaler saved to: {MODEL_PATH}")
-    
-    # Plot Feature Importance & Confusion Matrix
-    plt.figure(figsize=(12, 5))
-    
-    plt.subplot(1, 2, 1)
-    sns.barplot(x=top_importances, y=top_features, palette='Blues_r')
-    plt.title('Top 10 Acoustic Feature Importances')
-    plt.xlabel('Importance Score')
-    
-    plt.subplot(1, 2, 2)
-    cm = confusion_matrix(y_test, y_pred, labels=['human', 'ai'])
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Greens', xticklabels=['human', 'ai'], yticklabels=['human', 'ai'])
-    plt.title('Confusion Matrix (Test Set)')
-    plt.xlabel('Predicted')
-    plt.ylabel('Actual')
-    
-    plt.tight_layout()
-    plt.savefig(PLOT_PATH, dpi=150)
-    plt.close()
-    print(f"Evaluation plot saved to: {PLOT_PATH}")
+df = pd.read_csv(feat_path)
+print(f"Loaded feature matrix: {df.shape[0]} rows, {df.shape[1]} columns")
 
-if __name__ == "__main__":
-    main()
+X = df.drop(columns=['filename', 'label', 'language'])
+y = df['label']
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# 1. Stratified 10-Fold Cross Validation
+rf_clf = RandomForestClassifier(n_estimators=200, random_state=42)
+et_clf = ExtraTreesClassifier(n_estimators=200, random_state=42)
+gb_clf = GradientBoostingClassifier(n_estimators=100, random_state=42)
+
+ensemble_clf = VotingClassifier(
+    estimators=[('rf', rf_clf), ('et', et_clf), ('gb', gb_clf)],
+    voting='soft'
+)
+
+cv_scores = cross_val_score(ensemble_clf, X_scaled, y, cv=10, scoring='accuracy')
+print(f"\n=== Stratified 10-Fold Cross-Validation Accuracy ===")
+print(f"Ensemble Model CV Accuracy: {cv_scores.mean()*100:.2f}% (+/- {cv_scores.std()*100:.2f}%)")
+
+# 2. Holdout Test Performance (20%)
+X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.20, random_state=42, stratify=y)
+
+ensemble_clf.fit(X_train, y_train)
+y_pred = ensemble_clf.predict(X_test)
+
+acc = accuracy_score(y_test, y_pred)
+print(f"\n=== Holdout Test Set Accuracy (20% Holdout / {len(y_test)} samples) ===")
+print(f"Test Accuracy: {acc*100:.2f}%\n")
+print(classification_report(y_test, y_pred))
+
+# Feature importances via Random Forest
+rf_clf.fit(X_scaled, y)
+importances = rf_clf.feature_importances_
+feat_importances = pd.Series(importances, index=X.columns).sort_values(ascending=False)
+
+print("Top 10 Most Important Acoustic Features:")
+for feat, imp in feat_importances.head(10).items():
+    print(f"  - {feat:<20} : {imp:.4f}")
+
+# Save Model Payload
+model_payload = {
+    'scaler': scaler,
+    'model': ensemble_clf,
+    'feature_names': list(X.columns)
+}
+
+pkl_path = os.path.join(BASE_DIR, "voice_classifier.pkl")
+with open(pkl_path, 'wb') as f:
+    pickle.dump(model_payload, f)
+print(f"\nTrained ensemble model saved to: {pkl_path}")
+
+# Plot Confusion Matrix and Feature Importances
+fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+cm = confusion_matrix(y_test, y_pred, labels=['ai', 'human'])
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=['AI', 'Human'], yticklabels=['AI', 'Human'], ax=axes[0])
+axes[0].set_title('Confusion Matrix (2,900-Sample Dataset)')
+axes[0].set_xlabel('Predicted Label')
+axes[0].set_ylabel('True Label')
+
+top_feat = feat_importances.head(10)
+sns.barplot(x=top_feat.values, y=top_feat.index, ax=axes[1], hue=top_feat.index, palette='Blues_r', legend=False)
+axes[1].set_title('Top 10 Acoustic Features Importance')
+axes[1].set_xlabel('Importance Weight')
+
+plt.tight_layout()
+plot_path = os.path.join(BASE_DIR, "training_results.png")
+plt.savefig(plot_path, dpi=300)
+print(f"Evaluation plot saved to: {plot_path}")
