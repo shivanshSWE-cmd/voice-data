@@ -1,4 +1,7 @@
 import os
+import matplotlib
+matplotlib.use('Agg')
+
 import pandas as pd
 import numpy as np
 import pickle
@@ -22,8 +25,8 @@ scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
 # 1. Stratified 10-Fold Cross Validation
-rf_clf = RandomForestClassifier(n_estimators=200, random_state=42)
-et_clf = ExtraTreesClassifier(n_estimators=200, random_state=42)
+rf_clf = RandomForestClassifier(n_estimators=150, random_state=42, n_jobs=-1)
+et_clf = ExtraTreesClassifier(n_estimators=150, random_state=42, n_jobs=-1)
 gb_clf = GradientBoostingClassifier(n_estimators=100, random_state=42)
 
 ensemble_clf = VotingClassifier(
@@ -31,7 +34,7 @@ ensemble_clf = VotingClassifier(
     voting='soft'
 )
 
-cv_scores = cross_val_score(ensemble_clf, X_scaled, y, cv=10, scoring='accuracy')
+cv_scores = cross_val_score(ensemble_clf, X_scaled, y, cv=10, scoring='accuracy', n_jobs=-1)
 print(f"\n=== Stratified 10-Fold Cross-Validation Accuracy ===")
 print(f"Ensemble Model CV Accuracy: {cv_scores.mean()*100:.2f}% (+/- {cv_scores.std()*100:.2f}%)")
 
@@ -71,7 +74,7 @@ print(f"\nTrained ensemble model saved to: {pkl_path}")
 fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 cm = confusion_matrix(y_test, y_pred, labels=['ai', 'human'])
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=['AI', 'Human'], yticklabels=['AI', 'Human'], ax=axes[0])
-axes[0].set_title('Confusion Matrix (2,900-Sample Dataset)')
+axes[0].set_title('Confusion Matrix (4,000 English Samples)')
 axes[0].set_xlabel('Predicted Label')
 axes[0].set_ylabel('True Label')
 
@@ -83,4 +86,5 @@ axes[1].set_xlabel('Importance Weight')
 plt.tight_layout()
 plot_path = os.path.join(BASE_DIR, "training_results.png")
 plt.savefig(plot_path, dpi=300)
+plt.close(fig)
 print(f"Evaluation plot saved to: {plot_path}")

@@ -1,92 +1,86 @@
 import os
 import sys
-import joblib
-import librosa
+import pickle
 import numpy as np
 import pandas as pd
+import soundfile as sf
+import librosa
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "voice_classifier.pkl")
+TARGET_SR = 16000
 
-def extract_single_audio_features(filepath, expected_feature_names):
-    y, sr = librosa.load(filepath, sr=16000, mono=True)
+def load_classifier():
+    if not os.path.exists(MODEL_PATH):
+        raise FileNotFoundError(f"Model file not found at: {MODEL_PATH}. Run train_baseline.py first.")
+    with open(MODEL_PATH, "rb") as f:
+        payload = pickle.load(f)
+    return payload['model'], payload['scaler'], payload['feature_names']
+
+def extract_audio_features(audio_path, expected_features):
+    y, sr = sf.read(audio_path)
+    if sr != TARGET_SR:
+        y = librosa.resample(y, orig_sr=sr, target_sr=TARGET_SR)
+        
+    mfccs = librosa.feature.mfcc(y=y, sr=TARGET_SR, n_mfcc=20)
+    mfcc_means = np.mean(mfccs, axis=1)
+    mfcc_stds = np.std(mfccs, axis=1)
     
-    mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
-    mfcc_mean = np.mean(mfcc, axis=1)
-    mfcc_std = np.std(mfcc, axis=1)
+    cent = librosa.feature.spectral_centroid(y=y, sr=TARGET_SR)[0]
+    bw = librosa.feature.spectral_bandwidth(y=y, sr=TARGET_SR)[0]
+    rolloff = librosa.feature.spectral_rolloff(y=y, sr=TARGET_SR)[0]
+    flatness = librosa.feature.spectral_flatness(y=y)[0]
     
-    spec_cent = librosa.feature.spectral_centroid(y=y, sr=sr)[0]
-    spec_bw = librosa.feature.spectral_bandwidth(y=y, sr=sr)[0]
-    spec_roll = librosa.feature.spectral_rolloff(y=y, sr=sr)[0]
     zcr = librosa.feature.zero_crossing_rate(y)[0]
     rms = librosa.feature.rms(y=y)[0]
     
-    f0, _, _ = librosa.pyin(y, fmin=librosa.note_to_hz('C2'), fmax=librosa.note_to_hz('C6'))
-    valid_f0 = f0[~np.isnan(f0)]
-    pitch_mean = np.mean(valid_f0) if len(valid_f0) > 0 else 0
-    pitch_std = np.std(valid_f0) if len(valid_f0) > 0 else 0
+    feat = {
+        'spec_cent_mean': float(np.mean(cent)),
+        'spec_cent_std': float(np.std(cent)),
+        'spec_bw_mean': float(np.mean(bw)),
+        'spec_bw_std': float(np.std(bw)),
+        'spec_roll_mean': float(np.mean(rolloff)),
+        'spec_roll_std': float(np.std(rolloff)),
+        'spec_flatness_mean': float(np.mean(flatness)),
+        'spec_flatness_std': float(np.std(flatness)),
+        'zcr_mean': float(np.mean(zcr)),
+        'zcr_std': float(np.std(zcr)),
+        'rms_mean': float(np.mean(rms)),
+        'rms_std': float(np.std(rms))
+    }
     
-    features = {}
-    for i in range(13):
-        features[f"mfcc_{i+1}_mean"] = mfcc_mean[i]
-        features[f"mfcc_{i+1}_std"] = mfcc_std[i]
+    for i in range(20):
+        feat[f'mfcc_{i+1}_mean'] = float(mfcc_means[i])
+        feat[f'mfcc_{i+1}_std'] = float(mfcc_stds[i])
         
-    features["spec_cent_mean"] = np.mean(spec_cent)
-    features["spec_cent_std"] = np.std(spec_cent)
-    features["spec_bw_mean"] = np.mean(spec_bw)
-    features["spec_bw_std"] = np.std(spec_bw)
-    features["spec_roll_mean"] = np.mean(spec_roll)
-    features["spec_roll_std"] = np.std(spec_roll)
-    features["zcr_mean"] = np.mean(zcr)
-    features["zcr_std"] = np.std(zcr)
-    features["rms_mean"] = np.mean(rms)
-    features["rms_std"] = np.std(rms)
-    features["pitch_mean"] = pitch_mean
-    features["pitch_std"] = pitch_std
-    
-    df_feat = pd.DataFrame([features])
-    return df_feat[expected_feature_names]
+    df_feat = pd.DataFrame([feat])
+    return df_feat[expected_features]
 
-def predict_voice(audio_file_path):
-    if not os.path.exists(MODEL_PATH):
-        print(f"Error: Trained model not found at {MODEL_PATH}. Please run train_baseline.py first.")
-        return
-        
-    if not os.path.exists(audio_file_path):
-        print(f"Error: Audio file not found at {audio_file_path}")
-        return
-        
-    payload = joblib.load(MODEL_PATH)
-    model = payload['model']
-    scaler = payload['scaler']
-    feature_names = payload['feature_names']
-    
-    print(f"\nAnalyzing audio file: {audio_file_path}")
-    X_single = extract_single_audio_features(audio_file_path, feature_names)
+def predict_voice(audio_path):
+    print(f"\nAnalyzing audio file: {audio_path}")
+    model, scaler, feature_names = load_classifier()
+    X_single = extract_audio_features(audio_path, feature_names)
     X_scaled = scaler.transform(X_single)
     
-    pred_label = model.predict(X_scaled)[0]
+    pred = model.predict(X_scaled)[0]
     probs = model.predict_proba(X_scaled)[0]
     classes = model.classes_
     
     prob_dict = dict(zip(classes, probs))
+    human_conf = prob_dict.get('human', 0.0) * 100
+    ai_conf = prob_dict.get('ai', 0.0) * 100
     
-    print("==========================================")
-    print(f" PREDICTION RESULT: {pred_label.upper()} VOICE")
-    print("==========================================")
-    print(f" Confidence:")
-    print(f"   - Human Voice: {prob_dict.get('human', 0)*100:.2f}%")
-    print(f"   - AI Voice:    {prob_dict.get('ai', 0)*100:.2f}%")
-    print("==========================================")
+    print("=" * 42)
+    print(f" PREDICTION RESULT: {pred.upper()} VOICE")
+    print("=" * 42)
+    print(" Confidence:")
+    print(f"   - Human Voice: {human_conf:.2f}%")
+    print(f"   - AI Voice:    {ai_conf:.2f}%")
+    print("=" * 42)
+    return pred, human_conf, ai_conf
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         predict_voice(sys.argv[1])
     else:
-        test_human = os.path.join(BASE_DIR, "voice data", "human", "human_01.wav")
-        test_ai = os.path.join(BASE_DIR, "voice data", "ai", "ai_01.wav")
-        
-        if os.path.exists(test_human):
-            predict_voice(test_human)
-        if os.path.exists(test_ai):
-            predict_voice(test_ai)
+        print("Usage: python predict.py <path_to_audio_file>")
