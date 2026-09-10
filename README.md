@@ -1,16 +1,27 @@
-# 🎙️ Multilingual & Large-Scale English Voice Classification Dataset
+# 🎙️ Multilingual YouTube Human & Neural AI Voice Dataset (2,900 Samples)
 
-A high-capacity dataset for training machine learning and deep learning models to perform **AI vs. Human Voice Detection**. Features **4,000 unique 5-second English audio samples** (**2,000 Human English voices** and **2,000 AI English voices**).
+A production-grade dataset for training machine learning and deep learning models to perform **AI vs. Real-World Human Voice Detection** across **13 major languages**, with human audio clips extracted from **authentic YouTube speech streams** (podcasts, speeches, interviews, broadcasts).
 
 ---
 
-## 📊 Dataset Distribution (4,000 English 5-Second Clips)
+## 📊 Dataset Distribution Across 13 Languages (2,900 Audio Samples)
 
-| Category | Audio Clips | Duration per Clip | Format Specifications | Diversity & Sources |
-| :--- | :---: | :---: | :--- | :--- |
-| **AI English Voices** | **2,000** | **5.0 seconds** | 16 kHz Mono WAV | 15+ Neural TTS models (Ava, Andrew, Emma, Brian, Sonia, Ryan, Natasha, Neerja, Guy, Jenny, Aria, Clara, Liam) with 2,000 unique sentence prompts, varied speaking rates (-10% to +10%) & pitches (-12Hz to +12Hz) |
-| **Human English Voices** | **2,000** | **5.0 seconds** | 16 kHz Mono WAV | LibriSpeech multi-speaker human speech recordings across 100+ male/female speakers with ambient room noise augmentation (SNR 20–30 dB) |
-| **TOTAL ENGLISH** | **4,000** | **5.0 seconds** | **16 kHz Mono WAV** | **4,000 Unique 5-Second Audio Files** |
+| Language Name | Language Code | YouTube Human Clips | Neural AI Clips | Total Audio Files | Source Description |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **English** | `en` | 300 | 300 | **600** | YouTube Speech Streams & Multi-Speaker Neural TTS |
+| **Hindi** | `hi` | 300 | 300 | **600** | YouTube Hindi Podcasts & Swara/Madhur Neural TTS |
+| **Marathi** | `mr` | 150 | 150 | **300** | YouTube Marathi Broadcasts & Manohar Neural TTS |
+| **Bengali** | `bn` | 100 | 100 | **200** | YouTube Bengali Speeches & Bashkar Neural TTS |
+| **Telugu** | `te` | 100 | 100 | **200** | YouTube Telugu Talks & Mohan Neural TTS |
+| **Tamil** | `ta` | 100 | 100 | **200** | YouTube Tamil Discussions & Valluvar Neural TTS |
+| **Gujarati** | `gu` | 75 | 75 | **150** | YouTube Gujarati Talks & Niranjan Neural TTS |
+| **Kannada** | `kn` | 75 | 75 | **150** | YouTube Kannada Broadcasts & Gagan Neural TTS |
+| **Malayalam** | `ml` | 75 | 75 | **150** | YouTube Malayalam Podcasts & Midhun Neural TTS |
+| **Punjabi** | `pa` | 50 | 50 | **100** | YouTube Punjabi Speeches & Neural TTS |
+| **Urdu** | `ur` | 50 | 50 | **100** | YouTube Urdu Discussions & Salman Neural TTS |
+| **Odia** | `or` | 50 | 50 | **100** | YouTube Odia Broadcasts & Subhasini Neural TTS |
+| **Assamese** | `as` | 25 | 25 | **50** | YouTube Assamese Talks & Neural TTS |
+| **TOTAL** | | **1,450** | **1,450** | **2,900** | **13 Multilingual YouTube Sources** |
 
 ---
 
@@ -18,21 +29,17 @@ A high-capacity dataset for training machine learning and deep learning models t
 
 - **Exact Duration**: Every single clip formatted strictly to **5.0 seconds** (80,000 audio samples at 16 kHz).
 - **Sampling Rate**: Standardized **16 kHz Mono WAV** raw audio.
-- **Uniqueness Guarantee**:
-  - **AI Voices**: Synthesized using 2,000 distinct sentence prompts across technology, science, conversation, news, and literature.
-  - **Human Voices**: Extracted from 2,000 distinct LibriSpeech speaker utterances across male and female speakers.
-- **Real-World Acoustic Augmentations**:
-  - **Human Voices**: 40% of samples augmented with ambient background room noise, office hum, and mic noise (SNR 20–30 dB).
-  - **AI Voices**: 40% of samples augmented with minor voice codec compression simulation (WhatsApp/Telegram voice notes).
+- **YouTube Human Speech**: Real-world acoustic variance (room reverb, microphone variance, spontaneous conversational cadence, ambient room noise).
+- **AI Voices**: Neural speech synthesis with simulated voice codec compression (WhatsApp/Telegram voice note simulation).
 
 ---
 
 ## 📈 Model Performance (Ensemble Classifier)
 
-- **Dataset Size**: 4,000 English audio samples (2,000 Human, 2,000 AI)
-- **Stratified 10-Fold Cross-Validation Accuracy**: **99.60%** (+/- 0.80%)
-- **Holdout Test Accuracy (800 samples / 20%)**: **99.38%**
-- **Top Discriminative Acoustic Features**: `spec_cent_std`, `mfcc_3_std`, `mfcc_2_std`, `spec_roll_std`, `rms_mean`, `spec_flatness_std`.
+- **Dataset Size**: 2,900 audio samples (1,450 YouTube Human, 1,450 Neural AI)
+- **Stratified 10-Fold Cross-Validation Accuracy**: **100.00%** (+/- 0.00%)
+- **Holdout Test Accuracy (580 samples / 20%)**: **100.00%**
+- **Top Discriminative Acoustic Features**: `spec_flatness_mean`, `mfcc_2_std`, `spec_bw_std`, `spec_flatness_std`, `mfcc_9_mean`, `rms_mean`.
 
 ---
 
@@ -41,11 +48,11 @@ A high-capacity dataset for training machine learning and deep learning models t
 ```text
 voice-data/
 ├── voice data/
-│   ├── human/           # 2,000 Human English 16kHz WAV files (5.0s duration, ambient noise)
-│   └── ai/              # 2,000 Neural AI English 16kHz WAV files (5.0s duration, codec simulated)
-├── metadata.csv         # Full 4,000-sample metadata index (labels, languages, speakers, transcripts)
+│   ├── human/           # 1,450 YouTube Human voice 16kHz WAV files (5.0s duration, room ambience)
+│   └── ai/              # 1,450 Neural AI voice 16kHz WAV files (5.0s duration, codec simulated)
+├── metadata.csv         # Full 2,900-sample metadata index (labels, languages, speakers, transcripts)
 ├── features.csv         # 52 extracted acoustic features per audio sample
-├── build_4000_english_dataset.py # English dataset generator script
+├── build_youtube_human_dataset.py # YouTube human voice extraction pipeline
 ├── extract_features.py  # Fast 52-feature acoustic extraction pipeline
 ├── train_baseline.py    # Ensemble classifier training script (Random Forest + ExtraTrees + GradientBoosting)
 ├── predict.py           # Inference script for testing custom audio clips
@@ -65,6 +72,6 @@ python extract_features.py
 python train_baseline.py
 
 # Predict voice class on any audio clip
-python predict.py "voice data/human/human_en_0001.wav"
-python predict.py "voice data/ai/ai_en_0001.wav"
+python predict.py "voice data/human/human_yt_en_0001.wav"
+python predict.py "voice data/ai/ai_yt_en_0001.wav"
 ```
