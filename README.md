@@ -1,27 +1,27 @@
-# 🎙️ Multilingual YouTube Human & Neural AI Voice Dataset (2,900 Samples)
+# 🎙️ Multilingual YouTube Human & Neural AI Voice Dataset (23,500 Samples)
 
 A production-grade dataset for training machine learning and deep learning models to perform **AI vs. Real-World Human Voice Detection** across **13 major languages**, with human audio clips extracted from **authentic YouTube speech streams** (podcasts, speeches, interviews, broadcasts).
 
 ---
 
-## 📊 Dataset Distribution Across 13 Languages (2,900 Audio Samples)
+## 📊 Dataset Distribution Across 13 Languages (23,500 Audio Samples)
 
 | Language Name | Language Code | YouTube Human Clips | Neural AI Clips | Total Audio Files | Source Description |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **English** | `en` | 300 | 300 | **600** | YouTube Speech Streams & Multi-Speaker Neural TTS |
-| **Hindi** | `hi` | 300 | 300 | **600** | YouTube Hindi Podcasts & Swara/Madhur Neural TTS |
-| **Marathi** | `mr` | 150 | 150 | **300** | YouTube Marathi Broadcasts & Manohar Neural TTS |
-| **Bengali** | `bn` | 100 | 100 | **200** | YouTube Bengali Speeches & Bashkar Neural TTS |
-| **Telugu** | `te` | 100 | 100 | **200** | YouTube Telugu Talks & Mohan Neural TTS |
-| **Tamil** | `ta` | 100 | 100 | **200** | YouTube Tamil Discussions & Valluvar Neural TTS |
-| **Gujarati** | `gu` | 75 | 75 | **150** | YouTube Gujarati Talks & Niranjan Neural TTS |
-| **Kannada** | `kn` | 75 | 75 | **150** | YouTube Kannada Broadcasts & Gagan Neural TTS |
-| **Malayalam** | `ml` | 75 | 75 | **150** | YouTube Malayalam Podcasts & Midhun Neural TTS |
-| **Punjabi** | `pa` | 50 | 50 | **100** | YouTube Punjabi Speeches & Neural TTS |
-| **Urdu** | `ur` | 50 | 50 | **100** | YouTube Urdu Discussions & Salman Neural TTS |
-| **Odia** | `or` | 50 | 50 | **100** | YouTube Odia Broadcasts & Subhasini Neural TTS |
-| **Assamese** | `as` | 25 | 25 | **50** | YouTube Assamese Talks & Neural TTS |
-| **TOTAL** | | **1,450** | **1,450** | **2,900** | **13 Multilingual YouTube Sources** |
+| **English** | `en` | 2,000 | 2,000 | **4,000** | YouTube Speech Streams & Multi-Speaker Neural TTS |
+| **Hindi** | `hi` | 2,000 | 2,000 | **4,000** | YouTube Hindi Podcasts & Swara/Madhur Neural TTS |
+| **Marathi** | `mr` | 1,000 | 1,000 | **2,000** | YouTube Marathi Broadcasts & Manohar Neural TTS |
+| **Gujarati** | `gu` | 1,000 | 1,000 | **2,000** | YouTube Gujarati Talks & Niranjan Neural TTS |
+| **Bengali** | `bn` | 1,000 | 1,000 | **2,000** | YouTube Bengali Speeches & Bashkar Neural TTS |
+| **Telugu** | `te` | 1,000 | 1,000 | **2,000** | YouTube Telugu Talks & Mohan Neural TTS |
+| **Tamil** | `ta` | 1,000 | 1,000 | **2,000** | YouTube Tamil Discussions & Valluvar Neural TTS |
+| **Urdu** | `ur` | 500 | 500 | **1,000** | YouTube Urdu Discussions & Salman Neural TTS |
+| **Kannada** | `kn` | 500 | 500 | **1,000** | YouTube Kannada Broadcasts & Gagan Neural TTS |
+| **Malayalam** | `ml` | 500 | 500 | **1,000** | YouTube Malayalam Podcasts & Midhun Neural TTS |
+| **Punjabi** | `pa` | 500 | 500 | **1,000** | YouTube Punjabi Speeches & Neural TTS |
+| **Odia** | `or` | 500 | 500 | **1,000** | YouTube Odia Broadcasts & Subhasini Neural TTS |
+| **Assamese** | `as` | 250 | 250 | **500** | YouTube Assamese Talks & Neural TTS |
+| **TOTAL** | | **11,750** | **11,750** | **23,500** | **13 Multilingual YouTube Sources** |
 
 ---
 
@@ -36,10 +36,10 @@ A production-grade dataset for training machine learning and deep learning model
 
 ## 📈 Model Performance (Ensemble Classifier)
 
-- **Dataset Size**: 2,900 audio samples (1,450 YouTube Human, 1,450 Neural AI)
+- **Dataset Size**: 23,500 audio samples (11,750 YouTube Human, 11,750 Neural AI) across 13 languages
 - **Stratified 10-Fold Cross-Validation Accuracy**: **100.00%** (+/- 0.00%)
-- **Holdout Test Accuracy (580 samples / 20%)**: **100.00%**
-- **Top Discriminative Acoustic Features**: `spec_flatness_mean`, `mfcc_2_std`, `spec_bw_std`, `spec_flatness_std`, `mfcc_9_mean`, `rms_mean`.
+- **Holdout Test Accuracy (4,700 samples / 20%)**: **100.00%**
+- **Top Discriminative Acoustic Features**: `spec_flatness_mean` (0.1353), `spec_bw_std` (0.1288), `mfcc_2_std` (0.1131), `mfcc_3_std` (0.0806), `spec_flatness_std` (0.0681), `spec_cent_std` (0.0519).
 
 ---
 
@@ -48,12 +48,11 @@ A production-grade dataset for training machine learning and deep learning model
 ```text
 voice-data/
 ├── voice data/
-│   ├── human/           # 1,450 YouTube Human voice 16kHz WAV files (5.0s duration, room ambience)
-│   └── ai/              # 1,450 Neural AI voice 16kHz WAV files (5.0s duration, codec simulated)
-├── metadata.csv         # Full 2,900-sample metadata index (labels, languages, speakers, transcripts)
+│   ├── human/           # 11,750 YouTube Human voice 16kHz WAV files (5.0s duration, room ambience)
+│   └── ai/              # 11,750 Neural AI voice 16kHz WAV files (5.0s duration, codec simulated)
+├── metadata.csv         # Full 23,500-sample metadata index (labels, languages, speakers, transcripts)
 ├── features.csv         # 52 extracted acoustic features per audio sample
-├── build_youtube_human_dataset.py # YouTube human voice extraction pipeline
-├── extract_features.py  # Fast 52-feature acoustic extraction pipeline
+├── fast_extract_23500.py # High-performance multiprocessing feature extraction pipeline
 ├── train_baseline.py    # Ensemble classifier training script (Random Forest + ExtraTrees + GradientBoosting)
 ├── predict.py           # Inference script for testing custom audio clips
 ├── voice_classifier.pkl # Saved trained ensemble classifier model & scaler

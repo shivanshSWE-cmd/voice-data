@@ -74,7 +74,7 @@ print(f"\nTrained ensemble model saved to: {pkl_path}")
 fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 cm = confusion_matrix(y_test, y_pred, labels=['ai', 'human'])
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=['AI', 'Human'], yticklabels=['AI', 'Human'], ax=axes[0])
-axes[0].set_title('Confusion Matrix (4,000 English Samples)')
+axes[0].set_title('Confusion Matrix (23,500 Multilingual Samples)')
 axes[0].set_xlabel('Predicted Label')
 axes[0].set_ylabel('True Label')
 
